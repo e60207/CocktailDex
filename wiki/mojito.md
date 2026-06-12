@@ -5,7 +5,7 @@ base: Rum
 tags: [Rum, Mint, Lime, Built, Highball, Refreshing]
 glassware: Highball
 ingested: 2026-06-08
-updated: 2026-06-08
+updated: 2026-06-12
 source: raw/archive/mojito.md
 ---
 
@@ -35,4 +35,4 @@ source: raw/archive/mojito.md
 
 **Modified Variation:** N/A
 
-**Other Similar Cocktails:** [Daiquiri](./daiquiri.md) (Score 6: shared rum base, lime, and sweetener), [Queen's Park Swizzle](./queens-park-swizzle.md) (Score 5: shared rum base, lime, and sweetener), [Long Island Ice Tea](./long-island-ice-tea.md) (Score 8: shared Rum base, Highball style, and refreshing profile)
+**Other Similar Cocktails:** [Daiquiri](./daiquiri.md) (fused 0.51 — same Rum base; shared lime & sugar; both Refreshing), [Queen's Park Swizzle](./queens-park-swizzle.md) (fused 0.49 — same Rum base; shares lime, mint, rum & sugar — a swizzled Mojito)

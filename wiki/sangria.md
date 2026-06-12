@@ -5,7 +5,7 @@ base: Wine
 tags: [Wine, Orange, Lemon, Built, Punch, Refreshing, Fruity]
 glassware: Wine
 ingested: 2026-06-09
-updated: 2026-06-09
+updated: 2026-06-12
 source: raw/archive/sangria.md
 ---
 

@@ -5,7 +5,7 @@ base: Rum
 tags: [Rum, Lime, Shaken, Sour, Refreshing, Coupe]
 glassware: Coupe
 ingested: 2026-06-08
-updated: 2026-06-08
+updated: 2026-06-12
 source: raw/archive/daiquiri.md
 ---
 
@@ -33,4 +33,4 @@ source: raw/archive/daiquiri.md
 
 **Modified Variation:** N/A
 
-**Other Similar Cocktails:** [Mojito](./mojito.md) (Score 6: shared rum base, lime, and sweetener), [Queen's Park Swizzle](./queens-park-swizzle.md) (Score 5: shared rum base, lime, and sweetener), [The Salty Shaker](./the-salty-shaker.md) (Score 5: both are shaken sours using lime), [Long Island Ice Tea](./long-island-ice-tea.md) (Score 7: shared Rum base and citrus sour profile)
+**Other Similar Cocktails:** [Mojito](./mojito.md) (fused 0.51 — same Rum base; shared lime & sugar; both Refreshing), [Queen's Park Swizzle](./queens-park-swizzle.md) (fused 0.44 — same Rum base; shared lime & sugar)

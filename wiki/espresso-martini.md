@@ -5,7 +5,7 @@ base: Vodka
 tags: [Vodka, Coffee, Sugar, Boozy, Complex, Shaken, Coupe]
 glassware: Coupe
 ingested: 2026-06-10
-updated: 2026-06-10
+updated: 2026-06-12
 source: raw/archive/espresso-martini.md
 ---
 
@@ -35,4 +35,4 @@ source: raw/archive/espresso-martini.md
 
 **Modified Variation:** N/A
 
-**Other Similar Cocktails:** TBD
+**Other Similar Cocktails:** [Long Island Ice Tea](./long-island-ice-tea.md) (fused 0.40 — same Vodka base; shared lemon & demerara syrup; both Boozy)

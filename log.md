@@ -3,6 +3,34 @@
 Append-only, reverse-chronological (newest on top). Every Ingest / Query-of-note / Lint
 gets a dated entry. Date prefixes are ISO `YYYY-MM-DD` so the log stays greppable.
 
+## 2026-06-12 — Similarity engine
+
+Replaced the hand-scored §7 rubric with a deterministic engine (OpenSpec change
+`add-content-aware-similarity`).
+
+- **New tool `scripts/similarity.py`** (stdlib-only): fuses three signals —
+  `0.45·rubric + 0.35·ingredient_jaccard + 0.20·text_cosine` — into one `fused` score.
+  Imports `VOCABULARY` from `wiki.py` (one-way) so a new tag is auto-visible to scoring.
+  Modes: `report` / `pairs` / `matrix` / `json` / `gaps` / `test` (47 self-tests pass).
+- **`gaps` command** (folded into the Lint workflow): flags un-canonicalised ingredient
+  variant clusters, sour/sweet double-misses, and link drift (stale / missing / one-way),
+  exiting non-zero on any warning.
+- **Thresholds (owner-tunable):** link/removal set to **0.38 / 0.33** (down from the
+  reference 0.45 / 0.40), validated against the live 8-card distribution. Lowered per owner
+  direction so **Espresso Martini ↔ Long Island Ice Tea** (fused 0.40) is classified similar.
+- **Corrected the audited link errors:** removed the wrong "shared Rum base" link between
+  **Daiquiri** and **Long Island Ice Tea** (LIIT's base is Vodka; fused 0.18); added the
+  mutual **Espresso Martini ↔ LIIT** link.
+- **Re-linked all 8 cards** to the new `(fused 0.NN — reason)` format (legacy `(Score N:)`
+  retired). Connected rum trio (Daiquiri–Mojito–QPS) + swizzle pair (QPS–Bermuda) + vodka
+  pair (EM–LIIT); **Sangria** and **The Salty Shaker** are TBD (nothing clears 0.38).
+- **Docs:** rewrote `CLAUDE.md` §7 (script computes / LLM selects + explains), added the §1
+  Similarity row, the §8 dual-lint flow, and the tiered extension-paths table; updated
+  `README.md`. Ratings / Modified Variation / `raw/archive/` untouched.
+- **Trial run:** report → judge → gaps → lint all green; gap-extension loop exercised on a
+  scratch card (variant cluster flagged, then discarded). `wiki.py compile` regenerated
+  `index.md` / `tags.md` / sidebar JSON.
+
 ## 2026-06-11 — Website Rendering Update
 
 - Updated `site/.vitepress/theme/enhance.js` to change the half-star base character from a solid star (★) to an outline star (☆).

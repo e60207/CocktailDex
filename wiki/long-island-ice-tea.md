@@ -5,7 +5,7 @@ base: Vodka
 tags: [Vodka, Rum, Gin, Tequila, Highball, Boozy, Refreshing]
 glassware: Collins
 ingested: 2026-06-11
-updated: 2026-06-11
+updated: 2026-06-12
 source: raw/archive/long-island-ice-tea.md
 ---
 
@@ -38,4 +38,4 @@ source: raw/archive/long-island-ice-tea.md
 
 **Modified Variation:** N/A
 
-**Other Similar Cocktails:** [Mojito](./mojito.md) (Score 8: shared Rum base, Highball style, and refreshing profile), [Daiquiri](./daiquiri.md) (Score 7: shared Rum base and citrus sour profile), [The Salty Shaker](./the-salty-shaker.md) (Score 5: both are potent Highballs with citrus)
+**Other Similar Cocktails:** [Espresso Martini](./espresso-martini.md) (fused 0.40 — same Vodka base; shared lemon & demerara syrup; both Boozy)

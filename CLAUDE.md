@@ -20,15 +20,17 @@ single source of truth for *how* to do that. Read it fully before any operation.
 |----|---------------------------|-------------|
 | **Ingest** | "ingest", "process my new cocktails", "I dropped some drinks in" | Process every file in `raw/inbox/` → enriched cards in `wiki/`, update indexes (hiding rating denominators), archive originals |
 | **Query** | "what should I make with…", "show me all Tiki drinks", "which did Eric rate 5?" | Read `index.md` (check ratings as numbers) → narrow via `tags.md` + grep → open relevant `wiki/` cards → answer with citations |
-| **Lint** | "lint", "health check", "is the wiki consistent?" | Run `python scripts/wiki.py lint` (§8), fix what it flags, report content issues |
+| **Lint** | "lint", "health check", "is the wiki consistent?" | Run `python scripts/wiki.py lint` **and** `python scripts/similarity.py gaps` (§8), fix what they flag, report content issues |
 | **Compile** | "compile", "rebuild the index", "resync tags" | Run `python scripts/wiki.py compile` — regenerate `index.md` + `tags.md` from the `wiki/` cards |
+| **Similarity** | "相似度", "similar", "重算連結", "re-link", "recompute similar cocktails" | Run `python scripts/similarity.py report` → link the `✅` candidates per card (§7), keep links mutual |
 
 If the owner just drops files and says nothing, assume **Ingest**.
 
 > **Deterministic vs judgment.** `index.md` and `tags.md` are *generated* by
-> `scripts/wiki.py compile`; lint is `scripts/wiki.py lint`. Let the script do the
-> bookkeeping. You (the LLM) own the judgment: completing fields from the web, assigning
-> tags, and ranking similar cocktails.
+> `scripts/wiki.py compile`; lint is `scripts/wiki.py lint`; **similarity scores are computed
+> by `scripts/similarity.py`** (never hand-derived — §7). Let the scripts do the deterministic
+> work. You (the LLM) own the judgment: completing fields from the web, assigning tags, and
+> *selecting + explaining* which of the script's recommended candidates to link.
 
 ---
 
@@ -42,8 +44,11 @@ CocktailDex/
 ├── tags.md              ← 6-dimension tag reverse index (GENERATED).
 ├── log.md               ← append-only, date-prefixed activity log
 ├── scripts/
-│   └── wiki.py          ← deterministic tooling: `compile` (rebuild index+tags) & `lint`.
-│                           Holds the canonical tag VOCABULARY. (compile.py / lint.py = aliases.)
+│   ├── wiki.py          ← deterministic tooling: `compile` (rebuild index+tags) & `lint`.
+│   │                       Holds the canonical tag VOCABULARY. (compile.py / lint.py = aliases.)
+│   └── similarity.py    ← deterministic similarity engine: `report`/`pairs`/`matrix`/`json`/
+│                           `gaps`/`test`. Imports VOCABULARY from wiki.py (one-way); holds the
+│                           ALIASES / SOUR_RE / SWEET_RE / weight + threshold constants.
 ├── raw/
 │   ├── inbox/           ← DROP ZONE. New cocktail docs land here = "pending / not yet processed"
 │   └── archive/         ← FROZEN originals, moved here after ingest = "done". NEVER edit these.
@@ -186,8 +191,10 @@ Trigger: files present in `raw/inbox/`, or the owner says "ingest".
       Rating/Modified Variation across verbatim. If a rating or its comment blockquote
       is blank or contains a placeholder, use `_ / 5` and `> N/A` respectively.
    3. **Assign 3–7 tags** (§4). Add to the `**Tags:**` line and to frontmatter.
-   4. **Link similar cocktails** (§7): scan existing `wiki/` cards, score overlap, link the
-      top 2–4. Add **mutual back-links** to those other cards.
+   4. **Link similar cocktails** (§7): run `python scripts/similarity.py report`, link the
+      `✅` candidates (top 2–4, or TBD if none qualify), and add **mutual back-links** to
+      those other cards. If `similarity.py gaps` flags an un-canonicalised ingredient, extend
+      `ALIASES` (§7 tier table) and re-run before linking.
    5. **Write** the enriched card to `wiki/<slug>.md` with frontmatter (§3a).
    6. **Move** the original file from `raw/inbox/` to `raw/archive/` (unchanged). If a
       multi-cocktail file, move the whole file once after all its cards are processed.
@@ -224,38 +231,92 @@ The wiki is your knowledge base; answer **from it**, not from scratch.
 
 ---
 
-### 7. Similar-cocktail linking algorithm  
-  
-The owner's card has an **Other Similar Cocktails** field. Populate it by calculating a precise similarity score for existing cocktails in `wiki/` against the current one based on a **Discrete Scoring System**.  
-  
-#### Scoring Rubric:  
-1. Structure & Identity:
-* Same Base Spirit: **+3 points**  
-* Same Family/Style: **+2 points**  
-* Shared Souring Agent (e.g., lime/lemon): **+1 point**  
-* Shared Sweetener (e.g., simple syrup/sugar): **+1 point**  
-2. Flavor Profile:
-* Each shared Flavor/Profile tag (e.g., `#Refreshing`, `#Spiced`): **+1 point** (Cap at a **maximum of 2 points**)  
-3. Technique:
-* Same Technique tag (e.g., `#Swizzle`, `#Shaken`): **+1 point**  
-  
-#### Linking Rules & Thresholds:  
-1. **Strict Threshold:** A candidate cocktail must achieve a **total score of ≥ 5** to be eligible for linking.  
-2. **Selection & Tie-breaking:** Link the **top 2–4** eligible candidates. If candidates have the same score, prioritize the one with a higher "Structure & Identity" subscore.  
-3. **Empty Results Allowed:** If no existing cocktails achieve a score of $\ge 5$, f **TBD** (do not force weak matches).  
-4. **Mutual Links & Explanations:**  
-* **Prefer mutual links:** When you link $A \rightarrow B$, always ensure $B \rightarrow A$ is updated accordingly.  
-* Add a brief, concise "why" explanation only if it provides meaningful context.  
-5. **Dynamic Re-evaluation:** Re-evaluate and refresh neighbors' similar-lists whenever you ingest a new related drink.
+### 7. Similar-cocktail linking algorithm
+
+The owner's card has an **Other Similar Cocktails** field. Similarity is computed
+**deterministically** by `python scripts/similarity.py report` — **run it; never re-derive
+scores by hand.** The script fuses three signals into one `fused` score:
+
+```
+fused = 0.45·(rubric/10) + 0.35·ingredient_jaccard + 0.20·text_cosine
+```
+
+- **Rubric (0.45)** — the legacy discrete §7 rubric, made deterministic: base spirit from
+  frontmatter, family/flavor/technique from tags, souring/sweetener re-derived from the
+  **ingredient lines** via `SOUR_RE`/`SWEET_RE` (not LLM judgment).
+- **Ingredient (0.35)** — Jaccard over canonicalised ingredient tokens (`ALIASES`), so
+  material overlap that never made it into tags still counts (e.g. Mojito ↔ QPS share
+  lime/mint/rum/sugar = 0.67 even though tags don't show it).
+- **Text (0.20)** — TF-IDF cosine over Background + Profile + Instruction + Garnish +
+  Glassware. Ratings, Modified Variation, and the existing `Other Similar Cocktails` line
+  are **excluded** so prior links can't feed back into the score.
+
+> **Script computes, you select & explain.** The numbers are the script's; the *judgment* is
+> yours — which candidates to link, the short "why" note, and keeping links mutual.
+
+#### Workflow (ingest or re-link)
+
+1. After writing/updating a card, run `python scripts/similarity.py report`.
+2. Link the candidates marked **`✅`** (fused ≥ the link threshold, currently **0.38**),
+   **top 2–4** per card. If none qualify, write **TBD** — never force weak matches.
+3. Write a brief "why" note grounded in the script's `rubric:` / `shared ingredients:`
+   breakdown (don't invent reasons the script didn't surface).
+4. **Mutual links:** when you link A → B, ensure B → A. Re-run the report after each ingest
+   to refresh affected neighbors (dynamic re-evaluation).
+5. If `python scripts/similarity.py gaps` flags an un-canonicalised ingredient or a
+   sour/sweet miss, **extend the relevant knowledge table** (below) and re-run before linking.
+
+The fused score is **authoritative**. The legacy discrete score (`☑️ §7`, threshold ≥ 5) is
+still printed for reference/tie-breaking only.
+
+#### Annotation format (D5 — one consistent format)
+
+Every entry uses `[Name](./slug.md) (fused 0.NN — brief reason)`, e.g.:
+
+`[Mojito](./mojito.md) (fused 0.51 — same Rum base; shared lime & sugar; both Refreshing)`
+
+The legacy `(Score N: …)` hand-scored format is **retired** — never write it.
+
+#### Thresholds (owner-tunable, named constants in `similarity.py`)
+
+- **Link / recommend:** `LINK_THRESHOLD = 0.38` (the `✅` bar in `report`; also the bar at
+  which `gaps` *requires* a mutual link to exist).
+- **Stale (removal):** `REMOVE_THRESHOLD = 0.33`. Written links scoring below this are
+  flagged stale by `gaps`; links in the **0.33–0.38 hysteresis band** are left alone (the
+  TF-IDF idf shifts as the collection grows, so border-line links shouldn't flap every ingest).
+
+These start from the live collection's score distribution (a natural gap separates the
+meaningful cluster ≥ 0.38 from the weak tail) and are the **owner's to retune** as the
+collection grows — change the constant + recompute, never hand-edit individual scores.
+
+#### Tiered extension paths (when a future card carries a new similarity element)
+
+"New similarity element" isn't one thing. Each tier has a detection signal and a single
+deliberate extension point — the first three are data-only, so determinism is preserved
+(same commit → same scores):
+
+| Tier | Extension point | Detected by | Cost |
+|------|-----------------|-------------|------|
+| New ingredient spelling/variant | `ALIASES` in `similarity.py` | `gaps` — fallthrough clusters | one regex line |
+| New souring / sweetening agent | `SOUR_RE` / `SWEET_RE` in `similarity.py` | `gaps` — sour/sweet double-miss | one token |
+| New tag | `VOCABULARY` in `wiki.py` | `wiki.py lint` (already) | one word; **auto-visible** to scoring (similarity.py imports VOCABULARY) |
+| New signal layer | new pure `(a, b, corpus) → [0,1]` function + weight | human decision | code, rare |
+| Collection-scale shift | `W_*` weights / thresholds; TF-IDF → embeddings (swap layer 3 only) | human decision | code, rare |
+
+Extend deliberately (like the tag VOCABULARY) — never invent a mapping at runtime.
 
 ---
 
 ## 8. Operation: LINT (consistency / health check)
 
-**First run `python scripts/wiki.py lint`** — it deterministically checks the items below
-and exits non-zero if there are errors. Then auto-fix mechanical issues, but **ask before
-changing content** (recipes, backgrounds, tags you're unsure about). After fixing tags or
-links, run `python scripts/wiki.py compile` to resync `index.md` / `tags.md`.
+**Run both `python scripts/wiki.py lint` and `python scripts/similarity.py gaps`** — together
+they deterministically check the items below and each exits non-zero on a problem (keep
+`wiki.py` free of similarity knowledge; the two stay decoupled). Then auto-fix mechanical
+issues, but **ask before changing content** (recipes, backgrounds, tags you're unsure about).
+After fixing tags or links, run `python scripts/wiki.py compile` to resync `index.md` /
+`tags.md`.
+
+`wiki.py lint` checks:
 
 - **Tag count:** any card with <3 or >7 tags → flag.
 - **Orphan tags:** a `#Tag` in a card that's missing from `tags.md`, or a tag in `tags.md`
@@ -270,6 +331,18 @@ links, run `python scripts/wiki.py compile` to resync `index.md` / `tags.md`.
 - **Frontmatter ↔ body:** `tags:` in frontmatter must equal the `**Tags:**` line.
 - **Human fields (info only, not errors):** cards with blank ratings — list them so the
   owner knows what still needs tasting notes. Never fill them yourself.
+
+`similarity.py gaps` checks (machine-checkable coverage + drift; WARN sets exit 1):
+
+- **Uncanonicalised ingredients:** tokens that fell through `ALIASES`, clustered by word
+  overlap. A multi-member cluster (likely the same thing spelled two ways) → WARN: add an
+  `ALIASES` entry (§7 tier table) and re-run. A lone fallthrough → INFO only (it still
+  matches itself across cards).
+- **Sour/sweet double-miss:** a card with ingredients but no `SOUR_RE`/`SWEET_RE` hit → INFO:
+  review whether a new agent (verjus, orgeat…) needs adding to the detection patterns.
+- **Link drift:** written `Other Similar Cocktails` entries vs current fused scores — stale
+  links (fused < `REMOVE_THRESHOLD`) and missing strong links (fused ≥ `LINK_THRESHOLD`,
+  neither side links the other) → WARN; links in the hysteresis band are left alone (§7).
 
 End a lint with a short report + the `log.md` entry `## YYYY-MM-DD — Lint`.
 

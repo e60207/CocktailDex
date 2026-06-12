@@ -5,7 +5,7 @@ base: Rum
 tags: [Rum, Falernum, Pineapple, Swizzle, Tiki, Fruity]
 glassware: Collins
 ingested: 2026-06-08
-updated: 2026-06-08
+updated: 2026-06-12
 source: raw/archive/bermuda-rum-swizzle.md
 ---
 
@@ -38,4 +38,4 @@ source: raw/archive/bermuda-rum-swizzle.md
 
 **Modified Variation:** N/A
 
-**Other Similar Cocktails:** [Queen's Park Swizzle](./queens-park-swizzle.md) (Score 8: same rum base, swizzle technique, and Tiki style)
+**Other Similar Cocktails:** [Queen's Park Swizzle](./queens-park-swizzle.md) (fused 0.38 — same Rum base; both Tiki swizzles; shared Angostura)

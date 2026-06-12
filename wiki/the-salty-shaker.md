@@ -5,7 +5,7 @@ base: Whiskey
 tags: [Whiskey, Lime, Mango, Spiced, Refreshing, Shaken, Sour]
 glassware: NickAndNora
 ingested: 2026-06-10
-updated: 2026-06-10
+updated: 2026-06-12
 source: raw/archive/The salty shaker.md
 ---
 
@@ -33,4 +33,4 @@ source: raw/archive/The salty shaker.md
 
 **Modified Variation:** N/A
 
-**Other Similar Cocktails:** [Daiquiri](./daiquiri.md) (Score 5: both are shaken sours using lime), [Long Island Ice Tea](./long-island-ice-tea.md) (Score 5: both are potent Highballs with citrus)
+**Other Similar Cocktails:** TBD
