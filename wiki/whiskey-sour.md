@@ -13,7 +13,7 @@ source: raw/archive/whiskey-sour.md
 
 **Background:** A classic cocktail dating back to the 18th-century maritime era, where sailors mixed spirits with citrus and sugar to prevent scurvy and make stagnant water palatable. The first official recipe appeared in Jerry Thomas's 1862 *The Bartender’s Guide*. The addition of egg white, often called a "Boston Sour," creates a rich, frothy texture that balances the lemon's acidity. (source: https://thebar.com, https://eightoaksdistillery.com)
 
-![Whiskey Sour](../photos/whiskey-sour.jpg)
+![](../photos/whiskey-sour/file-20260612205252316.png)
 
 - **Glassware:** Sour glass
 - **Ingredients:**

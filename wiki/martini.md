@@ -13,7 +13,7 @@ source: raw/archive/martini.md
 
 **Background:** The Martini's origins are debated, but it likely evolved from the sweeter 19th-century "Martinez." It became dryer in the early 20th century as London Dry Gin and dry French vermouth became preferred. Its status was cemented during Prohibition when gin was easier to produce illegally, and it remains a global symbol of sophisticated drinking. (source: https://alcoholprofessor.com, https://sipsmith.com)
 
-![Martini](../photos/martini.jpg)
+![](../photos/martini/file-20260612204604293.png)
 
 - **Glassware:** Martini glass
 - **Ingredients:**
