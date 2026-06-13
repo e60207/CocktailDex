@@ -31,10 +31,10 @@ source: raw/archive/sangria.md
 - **Tags:** #Wine #Orange #Lemon #Built #Punch #Refreshing #Fruity
 
 **Eric — Rating:** 4.5 / 5
-> {your comment, or N/A}
+> N/A
 
 **Charlene — Rating:** _ / 5
-> {your comment, or N/A}
+> N/A
 
 **Modified Variation:** N/A
 

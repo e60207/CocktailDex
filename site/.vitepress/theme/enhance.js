@@ -138,6 +138,16 @@ function enhanceRatings(root) {
 
     nodes.forEach((n) => n.remove())
     parent.appendChild(wrap)
+
+    // Hide the following blockquote if it's just a placeholder or N/A.
+    const next = parent.nextElementSibling
+    if (next && next.tagName === 'BLOCKQUOTE') {
+      const val = next.textContent.trim()
+      if (val === 'N/A' || val === '{your comment, or N/A}' || !val) {
+        next.style.display = 'none'
+      }
+    }
+
     parent.dataset.cdxRating = '1'
   })
 }

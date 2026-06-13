@@ -28,13 +28,13 @@ source: raw/archive/espresso-martini.md
 - **Tags:** #Vodka #Coffee #Sugar #Boozy #Complex #Shaken #Coupe
 
 **Eric — Rating:** 4 / 5
-> {your comment, or N/A}
+> N/A
 
 **Charlene — Rating:** _ / 5
-> {your comment, or N/A}
+> N/A
 
 **Modified Variation:** N/A
 
-**!!Tips:** N/A
+**!!Tips:** Let the espresso cool down a little before making this cocktail to prevent over dilution.
 
 **Other Similar Cocktails:** [Long Island Ice Tea](./long-island-ice-tea.md) (fused 0.40 — same Vodka base; shared lemon & sugar; both Boozy)

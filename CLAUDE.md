@@ -357,7 +357,8 @@ End a lint with a short report + the `log.md` entry `## YYYY-MM-DD — Lint`.
    `Eric — Rating`, `Charlene — Rating`, `Modified Variation`, or `!!Tips`. Carry them across
    raw→wiki exactly as written; if a rating or its comment is blank/placeholder, use `_ / 5`
    and `N/A`. Ratings use **0.5 increments**; the index page hides the denominator (e.g.,
-   "4.5" instead of "4.5 / 5").
+   "4.5" instead of "4.5 / 5"). Rating comments (the blockquote following the rating) are
+   hidden on the website if they contain `N/A` or are empty.
 2. **`raw/archive/` is immutable.** Once a file is archived, never edit it. To revise, the
    owner drops a corrected file in `raw/inbox/` and you re-ingest (overwrite the `wiki/` card).
 3. **No fabricated facts.** Background and any historical/sourcing claim must be grounded in

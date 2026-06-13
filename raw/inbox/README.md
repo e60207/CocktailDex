@@ -47,3 +47,5 @@ When this folder is empty, everything has been processed.
 
 Even a bare name plus a couple of ingredients is enough — the AI fills the rest. (See the
 already-ingested examples in [`../archive/`](../archive/) for how sparse a raw drop can be.)
+
+> **Tip:** Rating comments, Modified Variation, and !!Tips are hidden on the website if left as `N/A`.

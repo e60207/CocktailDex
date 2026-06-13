@@ -26,10 +26,10 @@ source: raw/archive/The salty shaker.md
 - **Tags:** #Whiskey #Lime #Mango #Spiced #Refreshing #Shaken #Sour
 
 **Eric — Rating:** 3 / 5
-> {your comment, or N/A}
+> N/A
 
 **Charlene — Rating:** 3.5 / 5
-> {your comment, or N/A}
+> N/A
 
 **Modified Variation:** N/A
 
