@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CLAUDE.md",
+                "file": "wiki/margarita-classic.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CLAUDE"
+              "title": "margarita-classic"
             }
           }
         ]
@@ -196,14 +196,15 @@
   },
   "active": "a5792ee10cb62ff7",
   "lastOpenFiles": [
-    "raw/inbox/README.md",
+    "wiki/french-75.md",
+    "raw/archive/french-75.md",
     "CLAUDE.md",
+    "raw/inbox/README.md",
     "wiki/whiskey-sour.md",
     "wiki/the-salty-shaker.md",
     "wiki/martini.md",
     "wiki/margarita-classic.md",
     "wiki/long-island-ice-tea.md",
-    "wiki/french-75.md",
     "GEMINI.md",
     "README.md",
     "wiki/bermuda-rum-swizzle.md",
@@ -217,7 +218,6 @@
     "photos/french-75",
     "raw/inbox/Untitled.md",
     "raw/archive/margarita-classic.md",
-    "raw/archive/french-75.md",
     "raw/inbox/Untitled 1.md",
     "raw/inbox/Untitled 2.md",
     "tags.md",

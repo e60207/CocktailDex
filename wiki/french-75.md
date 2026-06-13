@@ -34,6 +34,6 @@ source: raw/archive/Untitled.md
 
 **Modified Variation:** N/A
 
-**!!Tips:** N/A
+**!!Tips:** The mixed ingredients are heavier than the sparkling wine. Adding sparkling wine first and adding the rest from top for a better mixing results. 
 
 **Other Similar Cocktails:** TBD
