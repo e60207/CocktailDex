@@ -13,7 +13,7 @@ source: raw/archive/espresso-martini.md
 
 **Background:** Created in 1983 by legendary London bartender Dick Bradsell at the Soho Brasserie, the drink was famously born when a young model asked for something that would "wake me up, and then f*** me up." Originally called the Vodka Espresso (and briefly the Pharmaceutical Stimulant), it was renamed in the 1990s as it gained popularity in V-shaped glasses. (source: https://mclarenvalecellars.com/blogs/blog/the-history-of-the-espresso-martini)
 
-![Espresso Martini](../photos/espresso-martini.png)
+![](../photos/espresso-martini/file-20260613145323074.png)
 
 - **Glassware:** Coupe
 - **Ingredients:**

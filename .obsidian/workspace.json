@@ -13,10 +13,10 @@
             "state": {
               "type": "image",
               "state": {
-                "file": "photos/martini/file-20260612204604293.png"
+                "file": "photos/espresso-martini/file-20260613145323074.png"
               },
               "icon": "lucide-image",
-              "title": "file-20260612204604293"
+              "title": "file-20260613145323074"
             }
           }
         ]
@@ -192,14 +192,17 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a5792ee10cb62ff7",
+  "active": "8413f806056544d9",
   "lastOpenFiles": [
+    "photos/espresso-martini/file-20260613145323074.png",
+    "wiki/espresso-martini.md",
+    "photos/espresso-martini",
+    "wiki/shamrock-cocktail.md",
+    "photos/martini/file-20260612204604293.png",
     "photos/shamrock-cocktail/file-20260613142812397.png",
     "photos/shamrock-cocktail/IMG_9926.jpeg",
     "raw/inbox/README.md",
-    "wiki/shamrock-cocktail.md",
     "wiki/sangria.md",
-    "wiki/espresso-martini.md",
     "wiki/daiquiri.md",
     "wiki/bermuda-rum-swizzle.md",
     "tags.md",
@@ -229,15 +232,12 @@
     "photos/whiskey-sour/file-20260612205252316.png",
     "photos/whiskey-sour",
     "photos/martini/file-20260612204509229.jpg",
-    "photos/martini/file-20260612204604293.png",
     "photos/martini",
     "to-do",
     "photos/long-island-ice-tea/file-20260611003229561.jpg",
     "scripts/__pycache__/wiki.cpython-314.pyc",
     "scripts/__pycache__",
     "scripts/similarity.py",
-    "openspec/specs/similarity-scoring",
-    "photos/sangria.jpg",
-    "photos/daiquiri.jpg"
+    "photos/sangria.jpg"
   ]
 }
