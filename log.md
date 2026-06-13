@@ -3,6 +3,14 @@
 Append-only, reverse-chronological (newest on top). Every Ingest / Query-of-note / Lint
 gets a dated entry. Date prefixes are ISO `YYYY-MM-DD` so the log stays greppable.
 
+## 2026-06-12 — Ingest
+
+- Ingested **Whiskey Sour** and **Martini** from `raw/inbox/`.
+- Completed Background and historical context from the web for both.
+- **Whiskey Sour**: Assigned 6 tags: `#Whiskey`, `#Lemon`, `#Sugar`, `#Egg`, `#Shaken`, `#Sour`. Linked **Other Similar Cocktails**: **TBD** (fused scores < 0.38).
+- **Martini**: Assigned 6 tags: `#Gin`, `#Vermouth`, `#Dry`, `#Stirred`, `#Martini`, `#NickAndNora`. Linked **Other Similar Cocktails**: **TBD** (no strong candidates).
+- Updated `index.md`, `tags.md`, and VitePress sidebar via `wiki.py compile`.
+
 ## 2026-06-12 — Similarity engine
 
 Replaced the hand-scored §7 rubric with a deterministic engine (OpenSpec change

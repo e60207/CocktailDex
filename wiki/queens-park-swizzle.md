@@ -35,4 +35,4 @@ source: raw/archive/queens-park-swizzle.md
 
 **Modified Variation:** N/A
 
-**Other Similar Cocktails:** [Mojito](./mojito.md) (fused 0.49 — same Rum base; shares lime, mint, rum & sugar), [Daiquiri](./daiquiri.md) (fused 0.44 — same Rum base; shared lime & sugar), [Bermuda Rum Swizzle](./bermuda-rum-swizzle.md) (fused 0.38 — same Rum base; both Tiki swizzles; shared Angostura)
+**Other Similar Cocktails:** [Mojito](./mojito.md) (fused 0.49 — same Rum base; shared lime, mint & sugar), [Daiquiri](./daiquiri.md) (fused 0.44 — same Rum base; shared lime & sugar), [Bermuda Rum Swizzle](./bermuda-rum-swizzle.md) (fused 0.38 — same Rum base; same Tiki family & Swizzle technique; shared rum & bitters)

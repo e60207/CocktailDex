@@ -2,8 +2,8 @@
 name: Mojito
 slug: mojito
 base: Rum
-tags: [Rum, Mint, Lime, Built, Highball, Refreshing]
-glassware: Highball
+tags: [Rum, Mint, Lime, Built, Highball, Refreshing, HighballGlass]
+glassware: HighballGlass
 ingested: 2026-06-08
 updated: 2026-06-12
 source: raw/archive/mojito.md
@@ -25,7 +25,7 @@ source: raw/archive/mojito.md
 - **Instruction:** Gently muddle mint with sugar and lime juice in the glass. Add rum and fill with ice. Top with soda water and stir briefly to lift the mint.
 - **Garnish:** Mint sprig and a lime wheel
 - **Profile:** Refreshing, Citrusy, Light
-- **Tags:** #Rum #Mint #Lime #Built #Highball #Refreshing
+- **Tags:** #Rum #Mint #Lime #Built #Highball #Refreshing #HighballGlass
 
 **Eric — Rating:** 5 / 5
 > N/A
@@ -35,4 +35,4 @@ source: raw/archive/mojito.md
 
 **Modified Variation:** N/A
 
-**Other Similar Cocktails:** [Daiquiri](./daiquiri.md) (fused 0.51 — same Rum base; shared lime & sugar; both Refreshing), [Queen's Park Swizzle](./queens-park-swizzle.md) (fused 0.49 — same Rum base; shares lime, mint, rum & sugar — a swizzled Mojito)
+**Other Similar Cocktails:** [Daiquiri](./daiquiri.md) (fused 0.51 — same Rum base; shared lime & sugar; both Refreshing), [Queen's Park Swizzle](./queens-park-swizzle.md) (fused 0.49 — same Rum base; shared lime, mint & sugar)

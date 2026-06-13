@@ -35,4 +35,4 @@ source: raw/archive/espresso-martini.md
 
 **Modified Variation:** N/A
 
-**Other Similar Cocktails:** [Long Island Ice Tea](./long-island-ice-tea.md) (fused 0.40 — same Vodka base; shared lemon & demerara syrup; both Boozy)
+**Other Similar Cocktails:** [Long Island Ice Tea](./long-island-ice-tea.md) (fused 0.40 — same Vodka base; shared lemon & sugar; both Boozy)

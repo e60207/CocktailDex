@@ -1,6 +1,6 @@
 [
   {
-    "text": "Cocktails (8)",
+    "text": "Cocktails (10)",
     "collapsed": false,
     "items": [
       {
@@ -20,6 +20,10 @@
         "link": "/wiki/long-island-ice-tea"
       },
       {
+        "text": "Martini",
+        "link": "/wiki/martini"
+      },
+      {
         "text": "Mojito",
         "link": "/wiki/mojito"
       },
@@ -34,6 +38,10 @@
       {
         "text": "The Salty Shaker",
         "link": "/wiki/the-salty-shaker"
+      },
+      {
+        "text": "Whiskey Sour",
+        "link": "/wiki/whiskey-sour"
       }
     ]
   }
