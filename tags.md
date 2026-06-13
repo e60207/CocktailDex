@@ -1,6 +1,6 @@
 # 🏷️ CocktailDex Tags — Taxonomy (Reverse Index)
 
-The controlled vocabulary for the wiki, organised into **6 dimensions**. Every cocktail
+The controlled vocabulary for the wiki, organised into **7 dimensions**. Every cocktail
 carries **3–7 tags** drawn from here (see `CLAUDE.md` §4). This page is the **reverse
 index**: under each tag, every cocktail that carries it.
 
@@ -22,7 +22,7 @@ index**: under each tag, every cocktail that carries it.
 - **#Rum** — [Bermuda Rum Swizzle](./wiki/bermuda-rum-swizzle.md), [Daiquiri](./wiki/daiquiri.md), [Long Island Ice Tea](./wiki/long-island-ice-tea.md), [Mojito](./wiki/mojito.md), [Queen's Park Swizzle](./wiki/queens-park-swizzle.md)
 - **#Gin** — [French 75](./wiki/french-75.md), [Long Island Ice Tea](./wiki/long-island-ice-tea.md), [Martini](./wiki/martini.md)
 - **#Vodka** — [Espresso Martini](./wiki/espresso-martini.md), [Long Island Ice Tea](./wiki/long-island-ice-tea.md)
-- **#Whiskey** — [The Salty Shaker](./wiki/the-salty-shaker.md), [Whiskey Sour](./wiki/whiskey-sour.md)
+- **#Whiskey** — [Shamrock Cocktail](./wiki/shamrock-cocktail.md), [The Salty Shaker](./wiki/the-salty-shaker.md), [Whiskey Sour](./wiki/whiskey-sour.md)
 - **#Tequila** — [Long Island Ice Tea](./wiki/long-island-ice-tea.md), [Margarita (Classic)](./wiki/margarita-classic.md)
 - **#Wine** — [French 75](./wiki/french-75.md), [Sangria](./wiki/sangria.md)
 
@@ -50,12 +50,13 @@ index**: under each tag, every cocktail that carries it.
 ## 3. Flavor / Profile
 *The taste experience.*
 
-**Vocabulary:** ● `#Refreshing` · ● `#Spiced` · ● `#Fruity` · ○ `#Citrusy` · ● `#Tart` · ○ `#Sweet` · ○ `#Bitter` · ○ `#Herbal` · ● `#Boozy` · ● `#Complex` · ○ `#Light` · ○ `#Creamy` · ○ `#Smoky` · ● `#Dry`
+**Vocabulary:** ● `#Refreshing` · ● `#Spiced` · ● `#Fruity` · ○ `#Citrusy` · ● `#Tart` · ○ `#Sweet` · ○ `#Bitter` · ● `#Herbal` · ● `#Boozy` · ● `#Complex` · ○ `#Light` · ○ `#Creamy` · ○ `#Smoky` · ● `#Dry`
 
 - **#Refreshing** — [Daiquiri](./wiki/daiquiri.md), [French 75](./wiki/french-75.md), [Long Island Ice Tea](./wiki/long-island-ice-tea.md), [Mojito](./wiki/mojito.md), [Sangria](./wiki/sangria.md), [The Salty Shaker](./wiki/the-salty-shaker.md)
 - **#Spiced** — [Queen's Park Swizzle](./wiki/queens-park-swizzle.md), [The Salty Shaker](./wiki/the-salty-shaker.md)
 - **#Fruity** — [Bermuda Rum Swizzle](./wiki/bermuda-rum-swizzle.md), [Sangria](./wiki/sangria.md)
 - **#Tart** — [Margarita (Classic)](./wiki/margarita-classic.md)
+- **#Herbal** — [Shamrock Cocktail](./wiki/shamrock-cocktail.md)
 - **#Boozy** — [Espresso Martini](./wiki/espresso-martini.md), [Long Island Ice Tea](./wiki/long-island-ice-tea.md)
 - **#Complex** — [Espresso Martini](./wiki/espresso-martini.md)
 - **#Dry** — [Martini](./wiki/martini.md)
@@ -69,7 +70,7 @@ index**: under each tag, every cocktail that carries it.
 
 - **#Shaken** — [Daiquiri](./wiki/daiquiri.md), [Espresso Martini](./wiki/espresso-martini.md), [French 75](./wiki/french-75.md), [Margarita (Classic)](./wiki/margarita-classic.md), [The Salty Shaker](./wiki/the-salty-shaker.md), [Whiskey Sour](./wiki/whiskey-sour.md)
 - **#Swizzle** — [Bermuda Rum Swizzle](./wiki/bermuda-rum-swizzle.md), [Queen's Park Swizzle](./wiki/queens-park-swizzle.md)
-- **#Stirred** — [Martini](./wiki/martini.md)
+- **#Stirred** — [Martini](./wiki/martini.md), [Shamrock Cocktail](./wiki/shamrock-cocktail.md)
 - **#Built** — [Mojito](./wiki/mojito.md), [Sangria](./wiki/sangria.md)
 
 ---
@@ -82,7 +83,7 @@ index**: under each tag, every cocktail that carries it.
 - **#Tiki** — [Bermuda Rum Swizzle](./wiki/bermuda-rum-swizzle.md), [Queen's Park Swizzle](./wiki/queens-park-swizzle.md)
 - **#Highball** — [Long Island Ice Tea](./wiki/long-island-ice-tea.md), [Mojito](./wiki/mojito.md)
 - **#Sour** — [Daiquiri](./wiki/daiquiri.md), [Margarita (Classic)](./wiki/margarita-classic.md), [The Salty Shaker](./wiki/the-salty-shaker.md), [Whiskey Sour](./wiki/whiskey-sour.md)
-- **#Martini** — [Martini](./wiki/martini.md)
+- **#Martini** — [Martini](./wiki/martini.md), [Shamrock Cocktail](./wiki/shamrock-cocktail.md)
 - **#Fizz** — [French 75](./wiki/french-75.md)
 - **#Punch** — [Sangria](./wiki/sangria.md)
 
@@ -99,6 +100,16 @@ index**: under each tag, every cocktail that carries it.
 - **#Flute** — [French 75](./wiki/french-75.md)
 - **#MartiniGlass** — [Martini](./wiki/martini.md)
 - **#HighballGlass** — [Mojito](./wiki/mojito.md)
+
+---
+
+## 7. Theme / Era
+*The cocktail's era or special theme.*
+
+**Vocabulary:** ● `#Classic` · ○ `#ModernClassic` · ○ `#Contemporary` · ○ `#Original` · ○ `#Halloween` · ● `#StPatricksDay`
+
+- **#Classic** — [Shamrock Cocktail](./wiki/shamrock-cocktail.md)
+- **#StPatricksDay** — [Shamrock Cocktail](./wiki/shamrock-cocktail.md)
 
 ---
 

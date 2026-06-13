@@ -52,10 +52,11 @@ from wiki import VOCABULARY  # noqa: E402  (path set above)
 FLAVOR_TAGS = set(VOCABULARY["Flavor / Profile"]["tags"])
 TECHNIQUE_TAGS = set(VOCABULARY["Technique"]["tags"])
 FAMILY_TAGS = set(VOCABULARY["Family / Style"]["tags"])
+ERA_TAGS = set(VOCABULARY["Theme / Era"]["tags"])
 
 # ---------------------------------------------------------------- weights ---
 W_RUBRIC, W_INGREDIENT, W_TEXT = 0.45, 0.35, 0.20
-RUBRIC_MAX = 10.0         # §7: base 3 + family 2 + sour 1 + sweet 1 + flavor cap 2 + technique 1
+RUBRIC_MAX = 11.0         # §7: base 3 + family 2 + sour 1 + sweet 1 + flavor cap 2 + technique 1 + era 1
 # Owner-tunable link thresholds, validated against the live collection's score distribution
 # (a natural gap separates the meaningful cluster ≥0.383 from the weak tail ≤0.306). The
 # product owner adjusts these as the collection grows; see CLAUDE.md §7.
@@ -173,6 +174,7 @@ def parse_card(path: Path) -> dict:
         "flavor":    {t for t in tags if t in FLAVOR_TAGS},
         "technique": {t for t in tags if t in TECHNIQUE_TAGS},
         "family":    {t for t in tags if t in FAMILY_TAGS},
+        "era":       {t for t in tags if t in ERA_TAGS},
         "raw_ingredients": raw_ings,
         "ingredients": {canon_ingredient(i) for i in raw_ings},
         "has_sour":  bool(SOUR_RE.search(ing_text)),
@@ -206,6 +208,9 @@ def rubric_score(a: dict, b: dict) -> tuple[int, list[str]]:
     tech = a["technique"] & b["technique"]
     if tech:
         pts += 1; why.append(f"same technique ({'/'.join(sorted(tech))}, +1)")
+    era = a["era"] & b["era"]
+    if era:
+        pts += 1; why.append(f"same theme/era ({'/'.join(sorted(era))}, +1)")
     return pts, why
 
 
@@ -508,18 +513,18 @@ def cmd_test():
         got = canon_ingredient(raw)
         check(got == want, f"alias: {raw!r} -> {want} (got {got!r})")
 
-    check(canon_ingredient("Dry sherry") == "dry-sherry", "fallthrough keeps raw slug")
-    check(_alias_match("Dry sherry") is None, "_alias_match None on fallthrough")
+    check(canon_ingredient("Absinthe") == "absinthe", "fallthrough keeps raw slug")
+    check(_alias_match("Absinthe") is None, "_alias_match None on fallthrough")
     check(strip_qty("- 1.5 oz Pineapple juice") == "Pineapple juice", "qty/unit stripping")
     check(jaccard({1, 2}, {2, 3}) == 1 / 3, "jaccard")
 
     # --- rubric full score ---------------------------------------------------
     a = {"base": "Rum", "family": {"Tiki"}, "flavor": {"Fruity", "Spiced", "Complex"},
-         "technique": {"Swizzle"}, "sour_agents": {"lemon"}, "sweet_agents": {"syrup"}}
+         "technique": {"Swizzle"}, "era": {"Classic"}, "sour_agents": {"lemon"}, "sweet_agents": {"syrup"}}
     b = {"base": "Rum", "family": {"Tiki"}, "flavor": {"Fruity", "Spiced"},
-         "technique": {"Swizzle"}, "sour_agents": {"lemon", "lime"}, "sweet_agents": {"syrup"}}
+         "technique": {"Swizzle"}, "era": {"Classic"}, "sour_agents": {"lemon", "lime"}, "sweet_agents": {"syrup"}}
     pts, _ = rubric_score(a, b)
-    check(pts == 3 + 2 + 1 + 1 + 2 + 1, f"rubric full score (got {pts}, want 10)")
+    check(pts == 3 + 2 + 1 + 1 + 2 + 1 + 1, f"rubric full score (got {pts}, want 11)")
 
     # --- TF-IDF cosine -------------------------------------------------------
     v = tfidf_vectors([["mint", "lime", "rum"], ["mint", "lime", "gin"], ["coffee", "vodka"]])
@@ -533,11 +538,13 @@ def cmd_test():
           "TECHNIQUE_TAGS derived from wiki.VOCABULARY")
     check(FAMILY_TAGS == set(VOCABULARY["Family / Style"]["tags"]),
           "FAMILY_TAGS derived from wiki.VOCABULARY")
+    check(ERA_TAGS == set(VOCABULARY["Theme / Era"]["tags"]),
+          "ERA_TAGS derived from wiki.VOCABULARY")
     # functional: a flavor tag that lives ONLY in VOCABULARY is counted by the rubric layer.
     vtag = sorted(set(VOCABULARY["Flavor / Profile"]["tags"]))[0]
-    ca = {"base": "", "family": set(), "flavor": {vtag}, "technique": set(),
+    ca = {"base": "", "family": set(), "flavor": {vtag}, "technique": set(), "era": set(),
           "sour_agents": set(), "sweet_agents": set()}
-    cb = {"base": "", "family": set(), "flavor": {vtag}, "technique": set(),
+    cb = {"base": "", "family": set(), "flavor": {vtag}, "technique": set(), "era": set(),
           "sour_agents": set(), "sweet_agents": set()}
     pts2, why2 = rubric_score(ca, cb)
     check(pts2 == 1 and any("flavor" in w for w in why2),

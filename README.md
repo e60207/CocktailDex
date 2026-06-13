@@ -40,9 +40,9 @@ knowledge **accumulates** here instead of being re-derived from scratch each tim
 | `raw/inbox/` | **Drop zone.** New cocktail files you haven't processed yet. |
 | `raw/archive/` | Frozen originals, moved here after ingest. Never edited. |
 | `wiki/` | The finished, living cocktail cards. |
-| `index.md` | Master table — the AI's starting point and your at-a-glance view. |
-| `tags.md` | 6-dimension tag index (tag → which cocktails). |
-| `log.md` | Dated history of every ingest / lint. |
+| index.md | Master table — the AI's starting point and your at-a-glance view. |
+| tags.md | 7-dimension tag index (tag → which cocktails). |
+| log.md | Dated history of every ingest / lint. |
 | `photos/` | Drink photos, named `<slug>.jpg`. |
 | `CLAUDE.md` | The rulebook the AI follows — the single source of truth (Claude loads it automatically). |
 | `GEMINI.md` | Gemini CLI's entry point. A thin shim that imports `CLAUDE.md`, so Gemini follows the same rulebook. |
@@ -199,8 +199,8 @@ Rebuild index.md and tags.md from the wiki/ cards.
 
 ## 5. Work with tags
 
-Tags span 6 dimensions — **base spirit, ingredient, flavour, technique, family, glassware**
-— and each drink carries 3–7. `tags.md` is the reverse index (tag → cocktails).
+Tags span 7 dimensions — **base spirit, ingredient, flavour, technique, family, glassware,
+theme/era** — and each drink carries 3–7. `tags.md` is the reverse index (tag → cocktails).
 
 **Find drinks by tag**
 ```

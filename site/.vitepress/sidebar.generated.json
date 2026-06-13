@@ -1,6 +1,6 @@
 [
   {
-    "text": "Cocktails (12)",
+    "text": "Cocktails (13)",
     "collapsed": false,
     "items": [
       {
@@ -42,6 +42,10 @@
       {
         "text": "Sangria",
         "link": "/wiki/sangria"
+      },
+      {
+        "text": "Shamrock Cocktail",
+        "link": "/wiki/shamrock-cocktail"
       },
       {
         "text": "The Salty Shaker",

@@ -5,6 +5,15 @@ gets a dated entry. Date prefixes are ISO `YYYY-MM-DD` so the log stays greppabl
 
 ## 2026-06-13 — Ingest
 
+- Ingested **Shamrock Cocktail** from `raw/inbox/Untitled.md`.
+- Completed Background and flavor profile from the web (Source: Difford's Guide).
+- Assigned 6 tags including the new Theme / Era dimension: `#Whiskey`, `#Herbal`, `#Stirred`, `#Martini`, `#Classic`, `#StPatricksDay`.
+- Linked **Other Similar Cocktails**: **TBD** (no existing cocktails met the 0.38 fused threshold; closest was **Martini** at 0.22).
+- Archived original as `raw/archive/shamrock-cocktail.md`.
+- Updated `index.md`, `tags.md`, and VitePress sidebar via `wiki.py compile`.
+
+## 2026-06-13 — Ingest
+
 - Ingested **French 75** and **Margarita (Classic)** from `raw/inbox/`.
 - Completed Background and historical context from the web for both.
 - **French 75**: Assigned 7 tags: `#Gin`, `#Lemon`, `#Refreshing`, `#Shaken`, `#Fizz`, `#Flute`, `#Wine`. Linked **Other Similar Cocktails**: **TBD** (no existing cocktails met the 0.38 fused threshold; closest was **Sangria** at 0.30).

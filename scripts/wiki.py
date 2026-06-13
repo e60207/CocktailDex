@@ -53,6 +53,10 @@ VOCABULARY = {
         "tags": ["Collins", "Coupe", "Rocks", "NickAndNora", "TikiMug", "Hurricane",
                  "WineGlass", "Flute", "Shot", "Margarita", "Pint", "MartiniGlass", "HighballGlass"],
     },
+    "Theme / Era": {
+        "blurb": "The cocktail's era or special theme.",
+        "tags": ["Classic", "ModernClassic", "Contemporary", "Original", "Halloween", "StPatricksDay"],
+    },
 }
 
 # Every tag token must belong to exactly ONE dimension (flat namespace).
@@ -214,7 +218,7 @@ def build_tags(cards):
 
     header = """# 🏷️ CocktailDex Tags — Taxonomy (Reverse Index)
 
-The controlled vocabulary for the wiki, organised into **6 dimensions**. Every cocktail
+The controlled vocabulary for the wiki, organised into **7 dimensions**. Every cocktail
 carries **3–7 tags** drawn from here (see `CLAUDE.md` §4). This page is the **reverse
 index**: under each tag, every cocktail that carries it.
 

@@ -24,6 +24,8 @@ When this folder is empty, everything has been processed.
 ```markdown
 ## {Name}
 
+**Theme/era:** TBD
+
 **Background:** TBD
 
 - **Glassware:** TBD

@@ -41,7 +41,7 @@ CocktailDex/
 ├── CLAUDE.md            ← you are here (schema + workflows). Single source of truth for both agents.
 ├── GEMINI.md            ← Gemini CLI entry point. Thin shim that imports CLAUDE.md (don't duplicate rules here).
 ├── index.md             ← MASTER INDEX (GENERATED). Entry point. Read this first for any query.
-├── tags.md              ← 6-dimension tag reverse index (GENERATED).
+├── tags.md              ← 7-dimension tag reverse index (GENERATED).
 ├── log.md               ← append-only, date-prefixed activity log
 ├── scripts/
 │   ├── wiki.py          ← deterministic tooling: `compile` (rebuild index+tags) & `lint`.
@@ -132,6 +132,7 @@ source link: (source: https://…). Never invent history.}
 | Field                   | You may complete? | Notes                                                   |
 | ----------------------- | :---------------: | ------------------------------------------------------- |
 | Name                    |         —         | from the source                                         |
+| Theme/era               |         —         | ingest-only hint (raw/inbox only); used for tags        |
 | Background              |       ✅ web       | cite a source; 2–4 sentences                            |
 | Photo                   |         —         | owner adds the image file; you only write the link path |
 | Glassware               |         ✅         |                                                         |
@@ -147,14 +148,14 @@ source link: (source: https://…). Never invent history.}
 | Other Similar Cocktails |         ✅         | auto-linked via §7                                      |
 
 > Note: this field was called **Theme** in the owner's original template. It is renamed
-> **Tags** here because it now spans 6 dimensions, not just style/theme.
+> **Tags** here because it now spans 7 dimensions, not just style/theme.
 
 ---
 
-## 4. Tag system — 6 dimensions
+## 4. Tag system — 7 dimensions
 
-The owner selected the **Standard 6** scheme. Every cocktail carries **3–7 tags total**,
-chosen as the most *salient* across these six dimensions (not one-per-dimension; pick what
+The owner selected the **Standard 7** scheme. Every cocktail carries **3–7 tags total**,
+chosen as the most *salient* across these seven dimensions (not one-per-dimension; pick what
 actually defines the drink). The canonical vocabulary lives in `scripts/wiki.py` (the
 `VOCABULARY` table); `tags.md` is its generated reverse index. If a genuinely new tag is
 needed, **add it to `VOCABULARY` in `scripts/wiki.py`, then recompile** (§5). Tag tokens are
@@ -168,6 +169,7 @@ flat — a name belongs to exactly one dimension (the script enforces this).
 | 4   | **Technique**        | how it's made                   | `#Shaken` `#Stirred` `#Built` `#Muddled` `#Swizzle` `#Blended`   |
 | 5   | **Family / Style**   | the cocktail family             | `#Sour` `#Highball` `#Tiki` `#OldFashioned` `#Fizz` `#Punch`     |
 | 6   | **Glassware**        | serving vessel                  | `#Coupe` `#Collins` `#Rocks` `#NickAndNora` `#TikiMug`           |
+| 7   | **Theme / Era**      | cocktail era or special theme   | `#Classic` `#ModernClassic` `#Contemporary` `#Original` `#Halloween` |
 
 **Tag rules:**
 - 3–7 per cocktail. Fewer than 3 = under-described; more than 7 = noise.
@@ -186,14 +188,22 @@ Trigger: files present in `raw/inbox/`, or the owner says "ingest".
    title) or **many cards** separated by `---` (`##` titles). Handle all.
 2. For **each cocktail** in each file:
    1. **Parse** into the schema fields (§3b). Derive `slug` = kebab-case of Name
-      (e.g. `Queen's Park Swizzle` → `queens-park-swizzle`).
+      (e.g. `Queen's Park Swizzle` → `queens-park-swizzle`). Note: raw files may
+      include a `**Theme/era:**` line; this is an **ingest-only hint** to help you
+      assign the 7th tag dimension (§4) and should **not** be carried over to the
+      `wiki/` card body.
    2. **Complete missing fields** (Background, Glassware, Ingredients, Instruction,
       Garnish, Profile) from the web or reliable knowledge. For Background and any
       historical claim, cite a source URL in the card. Normalise Ingredients to
       `qty + ingredient`, one per line. **Never touch the three human-only fields** — copy
       Rating/Modified Variation across verbatim. If a rating or its comment blockquote
       is blank or contains a placeholder, use `_ / 5` and `> N/A` respectively.
-   3. **Assign 3–7 tags** (§4). Add to the `**Tags:**` line and to frontmatter.
+   3. **Assign 3–7 tags** (§4). Use the `Theme/era` hint if provided; if the hint is
+      missing, contains "TBD" (even if other text is present), or is otherwise
+      inconclusive, search online to determine the correct era/theme tag.
+      **Special rule for `#Original`:** only assign this if the user explicitly
+      specified it in the hint, and you have verified online that it is not a known
+      classic/existing cocktail. Add tags to the `**Tags:**` line and to frontmatter.
    4. **Link similar cocktails** (§7): run `python scripts/similarity.py report`, link the
       `✅` candidates (top 2–4, or TBD if none qualify), and add **mutual back-links** to
       those other cards. If `similarity.py gaps` flags an un-canonicalised ingredient, extend
@@ -241,11 +251,11 @@ The owner's card has an **Other Similar Cocktails** field. Similarity is compute
 scores by hand.** The script fuses three signals into one `fused` score:
 
 ```
-fused = 0.45·(rubric/10) + 0.35·ingredient_jaccard + 0.20·text_cosine
+fused = 0.45·(rubric/11) + 0.35·ingredient_jaccard + 0.20·text_cosine
 ```
 
 - **Rubric (0.45)** — the legacy discrete §7 rubric, made deterministic: base spirit from
-  frontmatter, family/flavor/technique from tags, souring/sweetener re-derived from the
+  frontmatter, family/flavor/technique/era from tags, souring/sweetener re-derived from the
   **ingredient lines** via `SOUR_RE`/`SWEET_RE` (not LLM judgment).
 - **Ingredient (0.35)** — Jaccard over canonicalised ingredient tokens (`ALIASES`), so
   material overlap that never made it into tags still counts (e.g. Mojito ↔ QPS share
@@ -402,4 +412,4 @@ grep -ril "#Swizzle"        wiki/    # by technique
 grep -L   "Eric.*[\d.] / 5" wiki/*.md # cards still missing Eric's rating
 ```
 
-*Last updated: 2026-06-08. This file is the schema; keep it current if the workflow changes.*
+*Last updated: 2026-06-13. This file is the schema; keep it current if the workflow changes.*
