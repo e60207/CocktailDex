@@ -1,6 +1,6 @@
 [
   {
-    "text": "Cocktails (10)",
+    "text": "Cocktails (12)",
     "collapsed": false,
     "items": [
       {
@@ -16,8 +16,16 @@
         "link": "/wiki/espresso-martini"
       },
       {
+        "text": "French 75",
+        "link": "/wiki/french-75"
+      },
+      {
         "text": "Long Island Ice Tea",
         "link": "/wiki/long-island-ice-tea"
+      },
+      {
+        "text": "Margarita (Classic)",
+        "link": "/wiki/margarita-classic"
       },
       {
         "text": "Martini",

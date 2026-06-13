@@ -3,6 +3,15 @@
 Append-only, reverse-chronological (newest on top). Every Ingest / Query-of-note / Lint
 gets a dated entry. Date prefixes are ISO `YYYY-MM-DD` so the log stays greppable.
 
+## 2026-06-13 — Ingest
+
+- Ingested **French 75** and **Margarita (Classic)** from `raw/inbox/`.
+- Completed Background and historical context from the web for both.
+- **French 75**: Assigned 7 tags: `#Gin`, `#Lemon`, `#Refreshing`, `#Shaken`, `#Fizz`, `#Flute`, `#Wine`. Linked **Other Similar Cocktails**: **TBD** (no existing cocktails met the 0.38 fused threshold; closest was **Sangria** at 0.30).
+- **Margarita (Classic)**: Assigned 7 tags: `#Tequila`, `#Lime`, `#Orange`, `#Tart`, `#Shaken`, `#Rocks`, `#Sour`. Linked **Other Similar Cocktails**: **TBD** (no existing cocktails met the 0.38 fused threshold; closest was **The Salty Shaker** at 0.28).
+- **Similarity engine**: Extended `ALIASES` in `scripts/similarity.py` to include **Grand Marnier** (as `orange-liqueur`) and **Sherry** (as `wine`) to improve material overlap detection.
+- Updated `index.md`, `tags.md`, and VitePress sidebar via `wiki.py compile`.
+
 ## 2026-06-12 — Ingest
 
 - Ingested **Whiskey Sour** and **Martini** from `raw/inbox/`.

@@ -30,7 +30,7 @@ source: raw/archive/mojito.md
 **Eric — Rating:** 5 / 5
 > N/A
 
-**Charlene — Rating:** _ / 5
+**Charlene — Rating:** 4.5 / 5
 > N/A
 
 **Modified Variation:** N/A

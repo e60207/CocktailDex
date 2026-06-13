@@ -30,7 +30,7 @@ source: raw/archive/whiskey-sour.md
 **Eric — Rating:** 4 / 5
 > N/A
 
-**Charlene — Rating:** _ / 5
+**Charlene — Rating:** 5 / 5
 > N/A
 
 **Modified Variation:** N/A
