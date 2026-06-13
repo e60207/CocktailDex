@@ -11,14 +11,12 @@
             "id": "a5792ee10cb62ff7",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "wiki/shamrock-cocktail.md",
-                "mode": "source",
-                "source": false
+                "file": "photos/martini/file-20260612204604293.png"
               },
-              "icon": "lucide-file",
-              "title": "shamrock-cocktail"
+              "icon": "lucide-image",
+              "title": "file-20260612204604293"
             }
           }
         ]
@@ -196,26 +194,27 @@
   },
   "active": "a5792ee10cb62ff7",
   "lastOpenFiles": [
+    "photos/shamrock-cocktail/file-20260613142812397.png",
+    "photos/shamrock-cocktail/IMG_9926.jpeg",
     "raw/inbox/README.md",
     "wiki/shamrock-cocktail.md",
+    "wiki/sangria.md",
+    "wiki/espresso-martini.md",
+    "wiki/daiquiri.md",
+    "wiki/bermuda-rum-swizzle.md",
     "tags.md",
     "to-do/tasks.md",
-    "photos/shamrock-cocktail/IMG_9926.jpeg",
     "photos/shamrock-cocktail",
     "wiki/the-salty-shaker.md",
     "wiki/whiskey-sour.md",
     "wiki/queens-park-swizzle.md",
-    "wiki/sangria.md",
     "raw/archive/shamrock-cocktail.md",
     "raw/inbox/Untitled.md",
     "raw/archive/Untitled.md",
     "CLAUDE.md",
     "wiki/martini.md",
-    "wiki/bermuda-rum-swizzle.md",
     "index.md",
     "GEMINI.md",
-    "wiki/espresso-martini.md",
-    "wiki/daiquiri.md",
     "wiki/french-75.md",
     "wiki/long-island-ice-tea.md",
     "README.md",
@@ -239,7 +238,6 @@
     "scripts/similarity.py",
     "openspec/specs/similarity-scoring",
     "photos/sangria.jpg",
-    "photos/daiquiri.jpg",
-    "photos/bermuda-rum-swizzle.jpg"
+    "photos/daiquiri.jpg"
   ]
 }

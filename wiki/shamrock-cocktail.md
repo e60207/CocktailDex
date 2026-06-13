@@ -13,7 +13,7 @@ source: raw/archive/shamrock-cocktail.md
 
 **Background:** The Shamrock is a classic cocktail that dates back to the early 20th century, notably appearing in Hugo Ensslin's *Recipes for Mixed Drinks* (1917) and Harry Craddock's *The Savoy Cocktail Book* (1930). Often described as an "Irish Martini," it is a sophisticated, herbaceous drink that showcases the complexity of Irish whiskey when paired with herbal liqueurs. (source: https://www.diffordsguide.com/cocktails/recipe/1792/shamrock-cocktail)
 
-![](../photos/shamrock-cocktail/IMG_9926.jpeg)
+![](../photos/shamrock-cocktail/file-20260613142812397.png)
 
 - **Glassware:** Coupe
 - **Ingredients:**
