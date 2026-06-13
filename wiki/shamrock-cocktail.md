@@ -34,6 +34,6 @@ source: raw/archive/shamrock-cocktail.md
 
 **Modified Variation:** N/A
 
-**!!Tips:** Can replace Dry vermouth with Blanc vermouth for richer profile.
+**!!Tips:** Can replace Dry vermouth with Blanc vermouth for a richer profile.
 
 **Other Similar Cocktails:** TBD

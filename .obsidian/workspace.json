@@ -196,21 +196,21 @@
   },
   "active": "a5792ee10cb62ff7",
   "lastOpenFiles": [
+    "raw/inbox/README.md",
+    "wiki/shamrock-cocktail.md",
+    "tags.md",
+    "to-do/tasks.md",
     "photos/shamrock-cocktail/IMG_9926.jpeg",
     "photos/shamrock-cocktail",
     "wiki/the-salty-shaker.md",
     "wiki/whiskey-sour.md",
     "wiki/queens-park-swizzle.md",
     "wiki/sangria.md",
-    "wiki/shamrock-cocktail.md",
-    "raw/inbox/README.md",
     "raw/archive/shamrock-cocktail.md",
     "raw/inbox/Untitled.md",
     "raw/archive/Untitled.md",
     "CLAUDE.md",
     "wiki/martini.md",
-    "to-do/tasks.md",
-    "tags.md",
     "wiki/bermuda-rum-swizzle.md",
     "index.md",
     "GEMINI.md",
@@ -240,7 +240,6 @@
     "openspec/specs/similarity-scoring",
     "photos/sangria.jpg",
     "photos/daiquiri.jpg",
-    "photos/bermuda-rum-swizzle.jpg",
-    "photos/the-salty-shaker.jpg"
+    "photos/bermuda-rum-swizzle.jpg"
   ]
 }
