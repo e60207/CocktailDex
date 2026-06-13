@@ -11,12 +11,14 @@
             "id": "a5792ee10cb62ff7",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "photos/espresso-martini/file-20260613145323074.png"
+                "file": "wiki/the-salty-shaker.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "file-20260613145323074"
+              "icon": "lucide-file",
+              "title": "the-salty-shaker"
             }
           }
         ]
@@ -192,9 +194,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "8413f806056544d9",
+  "active": "a5792ee10cb62ff7",
   "lastOpenFiles": [
+    "photos/the-salty-shaker/file-20260613145753189.jpg",
+    "photos/the-salty-shaker.jpg",
     "photos/espresso-martini/file-20260613145323074.png",
+    "photos/espresso-martini.png",
     "wiki/espresso-martini.md",
     "photos/espresso-martini",
     "wiki/shamrock-cocktail.md",
@@ -234,10 +239,8 @@
     "photos/martini/file-20260612204509229.jpg",
     "photos/martini",
     "to-do",
-    "photos/long-island-ice-tea/file-20260611003229561.jpg",
     "scripts/__pycache__/wiki.cpython-314.pyc",
     "scripts/__pycache__",
-    "scripts/similarity.py",
-    "photos/sangria.jpg"
+    "scripts/similarity.py"
   ]
 }
