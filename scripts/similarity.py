@@ -19,7 +19,7 @@ tags are a lossy 3-7 token compression of each card. This script fuses THREE sig
        parsed from the body ("Gosling's Black Seal rum" -> rum, "simple syrup"
        -> sugar). Captures information that never made it into tags.
   3. TEXT (weight 0.20) — pure-python TF-IDF cosine over Background + Profile
-       + Instruction + Garnish + Glassware. Ratings / Modified Variation
+       + Instruction + Garnish + Glassware. Ratings / Modified Variation / !!Tips
        (human-only) and the existing "Other Similar Cocktails" line are EXCLUDED
        so prior links can't feed back into the score.
 

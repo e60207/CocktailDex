@@ -142,6 +142,45 @@ function enhanceRatings(root) {
   })
 }
 
+function enhanceHumanFields(root) {
+  root.querySelectorAll('p > strong, li > strong').forEach((strong) => {
+    const label = strong.textContent.trim()
+    const parent = strong.parentNode
+
+    if (label === 'Modified Variation:') {
+      if (parent.dataset.cdxModified) return
+      const { text } = trailingNodes(strong)
+      if (text.trim() === 'N/A') {
+        parent.style.display = 'none'
+      }
+      parent.dataset.cdxModified = '1'
+    } else if (label === '!!Tips:') {
+      if (parent.dataset.cdxTips) return
+      const { text } = trailingNodes(strong)
+      const content = text.trim()
+      if (content === 'N/A') {
+        parent.style.display = 'none'
+      } else {
+        // Style the parent as a box and rebuild content
+        parent.className = 'cdx-tips-box'
+        parent.innerHTML = ''
+
+        const symbol = document.createElement('span')
+        symbol.className = 'cdx-tips-symbol'
+        symbol.textContent = '!!'
+
+        const tipLabel = document.createElement('strong')
+        tipLabel.textContent = 'Tips: '
+
+        parent.appendChild(symbol)
+        parent.appendChild(tipLabel)
+        parent.appendChild(document.createTextNode(content))
+      }
+      parent.dataset.cdxTips = '1'
+    }
+  })
+}
+
 // Entry point — run both transforms over the rendered doc. Wrapped so a failure in one
 // never breaks the page (graceful degradation to plain markdown).
 export function enhanceContent() {
@@ -150,4 +189,5 @@ export function enhanceContent() {
   if (!root) return
   try { enhanceTags(root) } catch (e) { /* leave tags as plain text */ }
   try { enhanceRatings(root) } catch (e) { /* leave ratings as plain text */ }
+  try { enhanceHumanFields(root) } catch (e) { /* leave human fields as plain text */ }
 }

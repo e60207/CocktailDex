@@ -356,7 +356,7 @@ a full history of every AI edit.)
 # Five rules worth remembering
 
 1. **Drop in `raw/inbox/`, then say "ingest."** Empty inbox = everything's processed.
-2. **Ratings & Modified Variation are yours.** The AI never invents or changes them.
+2. **Ratings, Modified Variation & !!Tips are yours.** The AI never invents or changes them.
 3. **`raw/archive/` is frozen.** To fix a drink, re-ingest a corrected file.
 4. **Tags come from `tags.md`.** New ones get added there deliberately, not ad-hoc.
 5. **Every ingest keeps `index.md`, `tags.md`, and `log.md` in sync** — so the collection
@@ -364,3 +364,4 @@ a full history of every AI edit.)
 
 *The four cocktails currently in the wiki are connected seed examples — keep, edit, or
 delete them as you add your own.*
+ own.*

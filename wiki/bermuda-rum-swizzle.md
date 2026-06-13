@@ -38,4 +38,6 @@ source: raw/archive/bermuda-rum-swizzle.md
 
 **Modified Variation:** N/A
 
+**!!Tips:** N/A
+
 **Other Similar Cocktails:** [Queen's Park Swizzle](./queens-park-swizzle.md) (fused 0.38 — same Rum base; same Tiki family & Swizzle technique; shared rum & bitters)

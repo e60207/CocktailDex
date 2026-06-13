@@ -303,3 +303,28 @@
     max-width: 920px;
   }
 }
+
+/* ===================================================================== *
+ * 8.x  HUMAN-ONLY FIELDS (Modified Variation & Tips)                    *
+ * ===================================================================== */
+.cdx-tips-box {
+  margin: 1.2rem 0;
+  padding: 0.8rem 1rem;
+  border: 2px solid var(--vp-c-brand-1);
+  border-radius: 8px;
+  background: var(--vp-c-bg-soft);
+  font-size: 0.95em;
+  line-height: 1.5;
+}
+
+.cdx-tips-symbol {
+  color: #d73a49; /* bold red exclamation mark */
+  font-weight: 800;
+  margin-right: 0.6em;
+  font-family: var(--cdx-font-display);
+  font-size: 1.1em;
+}
+
+.dark .cdx-tips-symbol {
+  color: #ff6b6b;
+}

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/margarita-classic.md",
+                "file": "CLAUDE.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "margarita-classic"
+              "title": "CLAUDE"
             }
           }
         ]
@@ -196,34 +196,34 @@
   },
   "active": "a5792ee10cb62ff7",
   "lastOpenFiles": [
-    "photos/margarita-classic/file-20260613003112548.jpg",
-    "photos/margarita-classic",
-    "wiki/french-75.md",
-    "wiki/long-island-ice-tea.md",
-    "wiki/espresso-martini.md",
-    "wiki/daiquiri.md",
-    "wiki/bermuda-rum-swizzle.md",
-    "wiki/mojito.md",
+    "raw/inbox/README.md",
+    "CLAUDE.md",
     "wiki/whiskey-sour.md",
     "wiki/the-salty-shaker.md",
-    "wiki/queens-park-swizzle.md",
     "wiki/martini.md",
     "wiki/margarita-classic.md",
+    "wiki/long-island-ice-tea.md",
+    "wiki/french-75.md",
+    "GEMINI.md",
+    "README.md",
+    "wiki/bermuda-rum-swizzle.md",
+    "photos/margarita-classic/file-20260613003112548.jpg",
+    "photos/margarita-classic",
+    "wiki/espresso-martini.md",
+    "wiki/daiquiri.md",
+    "wiki/mojito.md",
+    "wiki/queens-park-swizzle.md",
     "photos/french-75/file-20260613002956812.jpg",
     "photos/french-75",
     "raw/inbox/Untitled.md",
     "raw/archive/margarita-classic.md",
     "raw/archive/french-75.md",
     "raw/inbox/Untitled 1.md",
-    "CLAUDE.md",
     "raw/inbox/Untitled 2.md",
     "tags.md",
-    "README.md",
     "wiki/sangria.md",
-    "raw/inbox/README.md",
     "to-do/tasks.md",
     "index.md",
-    "GEMINI.md",
     "log.md",
     "photos/whiskey-sour/file-20260612205252316.png",
     "photos/whiskey-sour",
@@ -240,7 +240,6 @@
     "photos/sangria.jpg",
     "photos/daiquiri.jpg",
     "photos/bermuda-rum-swizzle.jpg",
-    "photos/the-salty-shaker.jpg",
-    "photos/Untitled/file-20260610225233800.png"
+    "photos/the-salty-shaker.jpg"
   ]
 }

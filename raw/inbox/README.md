@@ -41,6 +41,8 @@ When this folder is empty, everything has been processed.
 > N/A
 
 **Modified Variation:** N/A
+
+**!!Tips:** N/A
 ```
 
 Even a bare name plus a couple of ingredients is enough — the AI fills the rest. (See the

@@ -122,6 +122,8 @@ source link: (source: https://…). Never invent history.}
 
 **Modified Variation:** N/A
 
+**!!Tips:** N/A
+
 **Other Similar Cocktails:** [Name](./other-slug.md), [Name](./other-slug.md)
 ```
 
@@ -141,6 +143,7 @@ source link: (source: https://…). Never invent history.}
 | **Eric — Rating**       | ❌ **HUMAN ONLY**  | carry over verbatim; never write/guess/change           |
 | **Charlene — Rating**   | ❌ **HUMAN ONLY**  | carry over verbatim; never write/guess/change           |
 | **Modified Variation**  | ❌ **HUMAN ONLY**  | carry over verbatim                                     |
+| **!!Tips**              | ❌ **HUMAN ONLY**  | carry over verbatim                                     |
 | Other Similar Cocktails |         ✅         | auto-linked via §7                                      |
 
 > Note: this field was called **Theme** in the owner's original template. It is renamed
@@ -350,11 +353,11 @@ End a lint with a short report + the `log.md` entry `## YYYY-MM-DD — Lint`.
 
 ## 9. Hard rules (never violate)
 
-1. **Ratings & Modified Variation are HUMAN-ONLY.** Never write, estimate, infer, or alter
-   `Eric — Rating`, `Charlene — Rating`, or `Modified Variation`. Carry them across raw→wiki
-   exactly as written; if a rating or its comment is blank/placeholder, use `_ / 5` and `N/A`.
-   Ratings use **0.5 increments**; the index page hides the denominator (e.g., "4.5" instead
-   of "4.5 / 5").
+1. **Ratings, Modified Variation & !!Tips are HUMAN-ONLY.** Never write, estimate, infer, or alter
+   `Eric — Rating`, `Charlene — Rating`, `Modified Variation`, or `!!Tips`. Carry them across
+   raw→wiki exactly as written; if a rating or its comment is blank/placeholder, use `_ / 5`
+   and `N/A`. Ratings use **0.5 increments**; the index page hides the denominator (e.g.,
+   "4.5" instead of "4.5 / 5").
 2. **`raw/archive/` is immutable.** Once a file is archived, never edit it. To revise, the
    owner drops a corrected file in `raw/inbox/` and you re-ingest (overwrite the `wiki/` card).
 3. **No fabricated facts.** Background and any historical/sourcing claim must be grounded in

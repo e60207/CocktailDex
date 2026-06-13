@@ -133,7 +133,8 @@ def parse_card(path):
             "fm_tags": fm_tags, "body_tags": body_tags,
             "ingredients_summary": ", ".join(ingredients),
             "instruction": instruction, "method": method, "profile": profile,
-            "eric": eric, "charlene": charlene, "similar": similar}
+            "eric": eric, "charlene": charlene, "similar": similar,
+            "has_tips": "!!Tips:" in text, "has_mod": "Modified Variation:" in text}
 
 
 def load_cards():
@@ -269,6 +270,10 @@ def do_lint():
         s = c["slug"]; n = len(c["body_tags"])
         if not (3 <= n <= 7):
             errors.append(f"{s}: tag count {n} (must be 3–7)")
+        if not c["has_tips"]:
+            errors.append(f"{s}: missing !!Tips: field")
+        if not c["has_mod"]:
+            errors.append(f"{s}: missing Modified Variation: field")
         if c["fm_tags"] != c["body_tags"]:
             errors.append(f"{s}: frontmatter tags {c['fm_tags']} != body Tags {c['body_tags']}")
         for t in c["body_tags"]:

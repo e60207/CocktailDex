@@ -33,4 +33,6 @@ source: raw/archive/The salty shaker.md
 
 **Modified Variation:** N/A
 
+**!!Tips:** N/A
+
 **Other Similar Cocktails:** TBD

@@ -33,4 +33,6 @@ source: raw/archive/daiquiri.md
 
 **Modified Variation:** N/A
 
+**!!Tips:** N/A
+
 **Other Similar Cocktails:** [Mojito](./mojito.md) (fused 0.51 — same Rum base; shared lime & sugar; both Refreshing), [Queen's Park Swizzle](./queens-park-swizzle.md) (fused 0.44 — same Rum base; shared lime & sugar)

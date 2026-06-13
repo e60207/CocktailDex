@@ -35,4 +35,6 @@ source: raw/archive/whiskey-sour.md
 
 **Modified Variation:** N/A
 
+**!!Tips:** N/A
+
 **Other Similar Cocktails:** TBD

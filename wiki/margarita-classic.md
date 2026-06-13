@@ -33,4 +33,6 @@ source: raw/archive/Untitled 1.md
 
 **Modified Variation:** If using traditional margarita glass, scale up each ingredients accordingly.
 
+**!!Tips:** N/A
+
 **Other Similar Cocktails:** TBD
