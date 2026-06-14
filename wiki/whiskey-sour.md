@@ -13,7 +13,7 @@ source: raw/archive/whiskey-sour.md
 
 **Background:** A classic cocktail dating back to the 18th-century maritime era, where sailors mixed spirits with citrus and sugar to prevent scurvy and make stagnant water palatable. The first official recipe appeared in Jerry Thomas's 1862 *The Bartender’s Guide*. The addition of egg white, often called a "Boston Sour," creates a rich, frothy texture that balances the lemon's acidity. (source: https://thebar.com, https://eightoaksdistillery.com)
 
-![](../photos/whiskey-sour/file-20260612205252316.png)
+![](../photos/whiskey-sour/file-20260614000117272.jpg)
 
 - **Glassware:** Sour glass
 - **Ingredients:**
@@ -37,4 +37,4 @@ source: raw/archive/whiskey-sour.md
 
 **!!Tips:** N/A
 
-**Other Similar Cocktails:** TBD
+**Other Similar Cocktails:** [Penicillin](./penicillin.md) (fused 0.436 — same Whiskey base; shared lemon & sugar)

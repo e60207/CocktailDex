@@ -17,13 +17,14 @@ index**: under each tag, every cocktail that carries it.
 ## 1. Base Spirit
 *The dominant spirit. Exactly one is mandatory per cocktail.*
 
-**Vocabulary:** ● `#Rum` · ● `#Gin` · ● `#Vodka` · ● `#Whiskey` · ● `#Tequila` · ○ `#Mezcal` · ○ `#Brandy` · ○ `#Cognac` · ○ `#Aquavit` · ○ `#Liqueur` · ○ `#FortifiedWine` · ● `#Wine`
+**Vocabulary:** ● `#Rum` · ● `#Gin` · ● `#Vodka` · ● `#Whiskey` · ● `#Tequila` · ○ `#Mezcal` · ○ `#Brandy` · ○ `#Cognac` · ○ `#Aquavit` · ● `#Liqueur` · ○ `#FortifiedWine` · ● `#Wine`
 
-- **#Rum** — [Bermuda Rum Swizzle](./wiki/bermuda-rum-swizzle.md), [Daiquiri](./wiki/daiquiri.md), [Long Island Ice Tea](./wiki/long-island-ice-tea.md), [Mojito](./wiki/mojito.md), [Queen's Park Swizzle](./wiki/queens-park-swizzle.md), [Tradewinds](./wiki/tradewinds.md)
+- **#Rum** — [Bermuda Rum Swizzle](./wiki/bermuda-rum-swizzle.md), [Daiquiri](./wiki/daiquiri.md), [Long Island Ice Tea](./wiki/long-island-ice-tea.md), [Mojito](./wiki/mojito.md), [Queen's Park Swizzle](./wiki/queens-park-swizzle.md), [Rum Flip](./wiki/rum-flip.md), [Tradewinds](./wiki/tradewinds.md)
 - **#Gin** — [Bijou (Layered)](./wiki/bijou-layered.md), [French 75](./wiki/french-75.md), [Long Island Ice Tea](./wiki/long-island-ice-tea.md), [Martini](./wiki/martini.md)
 - **#Vodka** — [Espresso Martini](./wiki/espresso-martini.md), [Long Island Ice Tea](./wiki/long-island-ice-tea.md)
-- **#Whiskey** — [Shamrock Cocktail](./wiki/shamrock-cocktail.md), [The Salty Shaker](./wiki/the-salty-shaker.md), [Whiskey Sour](./wiki/whiskey-sour.md)
+- **#Whiskey** — [Penicillin](./wiki/penicillin.md), [Shamrock Cocktail](./wiki/shamrock-cocktail.md), [The Salty Shaker](./wiki/the-salty-shaker.md), [Whiskey Sour](./wiki/whiskey-sour.md)
 - **#Tequila** — [Long Island Ice Tea](./wiki/long-island-ice-tea.md), [Margarita (Classic)](./wiki/margarita-classic.md)
+- **#Liqueur** — [B-52](./wiki/b-52.md)
 - **#Wine** — [French 75](./wiki/french-75.md), [Sangria](./wiki/sangria.md)
 
 ---
@@ -31,27 +32,30 @@ index**: under each tag, every cocktail that carries it.
 ## 2. Ingredient
 *Distinctive non-base components (souring agent, sweetener, modifiers, aromatics).*
 
-**Vocabulary:** ● `#Lime` · ● `#Mint` · ● `#Falernum` · ● `#Pineapple` · ● `#Mango` · ● `#Lemon` · ● `#Orange` · ● `#Coconut` · ● `#Sugar` · ○ `#Demerara` · ○ `#Angostura` · ○ `#Soda` · ○ `#Campari` · ● `#Vermouth` · ● `#Egg` · ○ `#Cream` · ○ `#Ginger` · ● `#Coffee`
+**Vocabulary:** ● `#Lime` · ● `#Mint` · ● `#Falernum` · ● `#Pineapple` · ● `#Mango` · ● `#Lemon` · ● `#Orange` · ● `#Coconut` · ● `#Sugar` · ○ `#Demerara` · ○ `#Angostura` · ○ `#Soda` · ○ `#Campari` · ● `#Vermouth` · ● `#Egg` · ○ `#Cream` · ● `#Ginger` · ● `#Coffee` · ● `#Honey` · ● `#Nutmeg`
 
 - **#Lime** — [Daiquiri](./wiki/daiquiri.md), [Margarita (Classic)](./wiki/margarita-classic.md), [Mojito](./wiki/mojito.md), [Queen's Park Swizzle](./wiki/queens-park-swizzle.md), [The Salty Shaker](./wiki/the-salty-shaker.md)
 - **#Mint** — [Mojito](./wiki/mojito.md), [Queen's Park Swizzle](./wiki/queens-park-swizzle.md)
 - **#Falernum** — [Bermuda Rum Swizzle](./wiki/bermuda-rum-swizzle.md)
 - **#Pineapple** — [Bermuda Rum Swizzle](./wiki/bermuda-rum-swizzle.md)
 - **#Mango** — [The Salty Shaker](./wiki/the-salty-shaker.md)
-- **#Lemon** — [French 75](./wiki/french-75.md), [Sangria](./wiki/sangria.md), [Tradewinds](./wiki/tradewinds.md), [Whiskey Sour](./wiki/whiskey-sour.md)
-- **#Orange** — [Margarita (Classic)](./wiki/margarita-classic.md), [Sangria](./wiki/sangria.md)
+- **#Lemon** — [French 75](./wiki/french-75.md), [Penicillin](./wiki/penicillin.md), [Sangria](./wiki/sangria.md), [Tradewinds](./wiki/tradewinds.md), [Whiskey Sour](./wiki/whiskey-sour.md)
+- **#Orange** — [B-52](./wiki/b-52.md), [Margarita (Classic)](./wiki/margarita-classic.md), [Sangria](./wiki/sangria.md)
 - **#Coconut** — [Tradewinds](./wiki/tradewinds.md)
 - **#Sugar** — [Espresso Martini](./wiki/espresso-martini.md), [Whiskey Sour](./wiki/whiskey-sour.md)
 - **#Vermouth** — [Bijou (Layered)](./wiki/bijou-layered.md), [Martini](./wiki/martini.md)
-- **#Egg** — [Whiskey Sour](./wiki/whiskey-sour.md)
-- **#Coffee** — [Espresso Martini](./wiki/espresso-martini.md)
+- **#Egg** — [Rum Flip](./wiki/rum-flip.md), [Whiskey Sour](./wiki/whiskey-sour.md)
+- **#Ginger** — [Penicillin](./wiki/penicillin.md)
+- **#Coffee** — [B-52](./wiki/b-52.md), [Espresso Martini](./wiki/espresso-martini.md)
+- **#Honey** — [Penicillin](./wiki/penicillin.md)
+- **#Nutmeg** — [Rum Flip](./wiki/rum-flip.md)
 
 ---
 
 ## 3. Flavor / Profile
 *The taste experience.*
 
-**Vocabulary:** ● `#Refreshing` · ● `#Spiced` · ● `#Fruity` · ○ `#Citrusy` · ● `#Tart` · ○ `#Sweet` · ○ `#Bitter` · ● `#Herbal` · ● `#Boozy` · ● `#Complex` · ○ `#Light` · ● `#Creamy` · ○ `#Smoky` · ● `#Dry`
+**Vocabulary:** ● `#Refreshing` · ● `#Spiced` · ● `#Fruity` · ○ `#Citrusy` · ● `#Tart` · ○ `#Sweet` · ○ `#Bitter` · ● `#Herbal` · ● `#Boozy` · ● `#Complex` · ○ `#Light` · ● `#Creamy` · ● `#Smoky` · ● `#Dry` · ● `#Spicy`
 
 - **#Refreshing** — [Daiquiri](./wiki/daiquiri.md), [French 75](./wiki/french-75.md), [Long Island Ice Tea](./wiki/long-island-ice-tea.md), [Mojito](./wiki/mojito.md), [Sangria](./wiki/sangria.md), [The Salty Shaker](./wiki/the-salty-shaker.md), [Tradewinds](./wiki/tradewinds.md)
 - **#Spiced** — [Queen's Park Swizzle](./wiki/queens-park-swizzle.md), [The Salty Shaker](./wiki/the-salty-shaker.md)
@@ -60,29 +64,32 @@ index**: under each tag, every cocktail that carries it.
 - **#Herbal** — [Bijou (Layered)](./wiki/bijou-layered.md), [Shamrock Cocktail](./wiki/shamrock-cocktail.md)
 - **#Boozy** — [Bijou (Layered)](./wiki/bijou-layered.md), [Espresso Martini](./wiki/espresso-martini.md), [Long Island Ice Tea](./wiki/long-island-ice-tea.md)
 - **#Complex** — [Bijou (Layered)](./wiki/bijou-layered.md), [Espresso Martini](./wiki/espresso-martini.md)
-- **#Creamy** — [Tradewinds](./wiki/tradewinds.md)
+- **#Creamy** — [B-52](./wiki/b-52.md), [Tradewinds](./wiki/tradewinds.md)
+- **#Smoky** — [Penicillin](./wiki/penicillin.md)
 - **#Dry** — [Martini](./wiki/martini.md)
+- **#Spicy** — [Penicillin](./wiki/penicillin.md)
 
 ---
 
 ## 4. Technique
 *How the drink is built.*
 
-**Vocabulary:** ● `#Shaken` · ○ `#Muddled` · ● `#Swizzle` · ● `#Stirred` · ● `#Built` · ● `#Blended` · ○ `#Thrown` · ● `#Layered` · ○ `#DryShake`
+**Vocabulary:** ● `#Shaken` · ○ `#Muddled` · ● `#Swizzle` · ● `#Stirred` · ● `#Built` · ● `#Blended` · ○ `#Thrown` · ● `#Layered` · ● `#DryShake`
 
 - **#Shaken** — [Daiquiri](./wiki/daiquiri.md), [Espresso Martini](./wiki/espresso-martini.md), [French 75](./wiki/french-75.md), [Margarita (Classic)](./wiki/margarita-classic.md), [The Salty Shaker](./wiki/the-salty-shaker.md), [Whiskey Sour](./wiki/whiskey-sour.md)
 - **#Swizzle** — [Bermuda Rum Swizzle](./wiki/bermuda-rum-swizzle.md), [Queen's Park Swizzle](./wiki/queens-park-swizzle.md)
 - **#Stirred** — [Martini](./wiki/martini.md), [Shamrock Cocktail](./wiki/shamrock-cocktail.md)
 - **#Built** — [Mojito](./wiki/mojito.md), [Sangria](./wiki/sangria.md)
 - **#Blended** — [Tradewinds](./wiki/tradewinds.md)
-- **#Layered** — [Bijou (Layered)](./wiki/bijou-layered.md)
+- **#Layered** — [B-52](./wiki/b-52.md), [Bijou (Layered)](./wiki/bijou-layered.md)
+- **#DryShake** — [Rum Flip](./wiki/rum-flip.md)
 
 ---
 
 ## 5. Family / Style
 *The cocktail family it belongs to.*
 
-**Vocabulary:** ● `#Tiki` · ● `#Highball` · ● `#Sour` · ○ `#OldFashioned` · ● `#Martini` · ● `#Fizz` · ● `#Punch` · ○ `#Spritz` · ○ `#Daisy` · ○ `#Flip` · ○ `#Julep`
+**Vocabulary:** ● `#Tiki` · ● `#Highball` · ● `#Sour` · ○ `#OldFashioned` · ● `#Martini` · ● `#Fizz` · ● `#Punch` · ○ `#Spritz` · ○ `#Daisy` · ● `#Flip` · ○ `#Julep`
 
 - **#Tiki** — [Bermuda Rum Swizzle](./wiki/bermuda-rum-swizzle.md), [Queen's Park Swizzle](./wiki/queens-park-swizzle.md), [Tradewinds](./wiki/tradewinds.md)
 - **#Highball** — [Long Island Ice Tea](./wiki/long-island-ice-tea.md), [Mojito](./wiki/mojito.md)
@@ -90,6 +97,7 @@ index**: under each tag, every cocktail that carries it.
 - **#Martini** — [Martini](./wiki/martini.md), [Shamrock Cocktail](./wiki/shamrock-cocktail.md)
 - **#Fizz** — [French 75](./wiki/french-75.md)
 - **#Punch** — [Sangria](./wiki/sangria.md)
+- **#Flip** — [Rum Flip](./wiki/rum-flip.md)
 
 ---
 
@@ -99,10 +107,10 @@ index**: under each tag, every cocktail that carries it.
 **Vocabulary:** ● `#Collins` · ● `#Coupe` · ● `#Rocks` · ○ `#NickAndNora` · ○ `#TikiMug` · ○ `#Hurricane` · ○ `#WineGlass` · ● `#Flute` · ● `#Shot` · ○ `#Margarita` · ○ `#Pint` · ● `#MartiniGlass` · ● `#HighballGlass`
 
 - **#Collins** — [Queen's Park Swizzle](./wiki/queens-park-swizzle.md)
-- **#Coupe** — [Daiquiri](./wiki/daiquiri.md), [Espresso Martini](./wiki/espresso-martini.md)
+- **#Coupe** — [Daiquiri](./wiki/daiquiri.md), [Espresso Martini](./wiki/espresso-martini.md), [Rum Flip](./wiki/rum-flip.md)
 - **#Rocks** — [Margarita (Classic)](./wiki/margarita-classic.md)
 - **#Flute** — [French 75](./wiki/french-75.md)
-- **#Shot** — [Bijou (Layered)](./wiki/bijou-layered.md)
+- **#Shot** — [B-52](./wiki/b-52.md), [Bijou (Layered)](./wiki/bijou-layered.md)
 - **#MartiniGlass** — [Martini](./wiki/martini.md)
 - **#HighballGlass** — [Mojito](./wiki/mojito.md)
 
@@ -111,9 +119,10 @@ index**: under each tag, every cocktail that carries it.
 ## 7. Theme / Era
 *The cocktail's era or special theme.*
 
-**Vocabulary:** ● `#Classic` · ○ `#ModernClassic` · ○ `#Contemporary` · ○ `#Original` · ○ `#Halloween` · ● `#StPatricksDay`
+**Vocabulary:** ● `#Classic` · ● `#ModernClassic` · ○ `#Contemporary` · ○ `#Original` · ○ `#Halloween` · ● `#StPatricksDay`
 
-- **#Classic** — [Shamrock Cocktail](./wiki/shamrock-cocktail.md)
+- **#Classic** — [B-52](./wiki/b-52.md), [Rum Flip](./wiki/rum-flip.md), [Shamrock Cocktail](./wiki/shamrock-cocktail.md)
+- **#ModernClassic** — [Penicillin](./wiki/penicillin.md)
 - **#StPatricksDay** — [Shamrock Cocktail](./wiki/shamrock-cocktail.md)
 
 ---

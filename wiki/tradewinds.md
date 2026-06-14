@@ -22,7 +22,7 @@ source: raw/archive/tradewinds.md
   - 1 oz Apricot liqueur
   - 1 oz Black blended rum
   - 1 oz Blended lightly aged rum
-- **Instruction:** Add all ingredients to a blender, add crushed ice and a couple cube ice as agitator. flash blend and open pour into the mug. garnish the cocktail with the umbrella inside out.
+- **Instruction:** Add all ingredients to a shaking tin, add crushed ice and a couple cube ices as agitator. briefly shake and open pour into the mug. garnish the cocktail with the umbrella inside out.
 - **Garnish:** Cocktail umbrella, lemon wedge, pineapple frond (optional)
 - **Profile:** Sweet-tart and tropical. Features a creamy, lush body from coconut cream balanced by bright lemon and stone-fruit depth from apricot.
 - **Tags:** #Rum #Lemon #Coconut #Refreshing #Creamy #Blended #Tiki

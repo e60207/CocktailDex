@@ -17,10 +17,10 @@ source: raw/archive/bijou-layered.md
 
 - **Glassware:** Shot
 - **Ingredients:**
-  - 1 part Gin
-  - 1 part Sweet vermouth
-  - 1 part Green chartreuse
-- **Instruction:** built each ingredient one at a time in a shot glass. starting from sweet vermouth at the bottom, followed by green chartreuse, and gin at the top.
+  - 1 part Green chartreuse (Bottom)
+  - 1 part Sweet vermouth (Meddle)
+  - 1 part Gin (Top)
+- **Instruction:** Build each ingredient one at a time into a shot glass according the the order above. 
 - **Garnish:** N/A
 - **Profile:** Bold, herbal, and spirit-forward. Layers the ingredients to showcase their colors, offering a complex progression from rich, spiced vermouth to intense herbal Chartreuse and crisp gin.
 - **Tags:** #Gin #Vermouth #Boozy #Complex #Herbal #Layered #Shot

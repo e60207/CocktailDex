@@ -5,6 +5,18 @@ gets a dated entry. Date prefixes are ISO `YYYY-MM-DD` so the log stays greppabl
 
 ## 2026-06-13 — Ingest
 
+- Ingested **Penicillin**, **B-52**, and **Rum Flip** from `raw/inbox/`.
+- Completed Background and flavor profile from the web for all three.
+- **Penicillin**: Created by Sam Ross in 2005. Assigned 7 tags: `#Whiskey`, `#Lemon`, `#Ginger`, `#Honey`, `#Smoky`, `#Spicy`, `#ModernClassic`. Linked **Other Similar Cocktails**: **Whiskey Sour** (fused 0.436).
+- **B-52**: Invented by Peter Fich in 1977. Assigned 7 tags: `#Liqueur`, `#Coffee`, `#Orange`, `#Creamy`, `#Layered`, `#Shot`, `#Classic`. Linked **Other Similar Cocktails**: **TBD** (no strong matches).
+- **Rum Flip**: Historic cocktail from the late 1600s. Assigned 7 tags: `#Rum`, `#Egg`, `#Nutmeg`, `#DryShake`, `#Flip`, `#Coupe`, `#Classic`. Linked **Other Similar Cocktails**: **TBD** (no existing cocktails met the 0.38 fused threshold; closest was **Daiquiri** at 0.35).
+- **Vocabulary update**: Added `Honey` and `Nutmeg` to **Ingredient**, and `Spicy` to **Flavor / Profile** in `scripts/wiki.py`.
+- Archived originals as `raw/archive/penicillin.md`, `raw/archive/b-52.md`, and `raw/archive/rum-flip.md`.
+- Updated `index.md`, `tags.md`, and VitePress sidebar via `wiki.py compile`.
+- **Mutual back-links**: Added **Penicillin** to the **Whiskey Sour** similarity list.
+
+## 2026-06-13 — Ingest
+
 - Ingested **Tradewinds** from `raw/inbox/Untitled.md` and **Bijou (Layered)** from `raw/inbox/Untitled 1.md`.
 - Completed Background and flavor profile from the web for both.
 - **Tradewinds**: Assigned 7 tags: `#Rum`, `#Lemon`, `#Coconut`, `#Refreshing`, `#Creamy`, `#Blended`, `#Tiki`. Linked **Other Similar Cocktails**: **Bermuda Rum Swizzle** and **Queen's Park Swizzle** (passing legacy §7).

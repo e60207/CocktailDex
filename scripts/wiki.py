@@ -30,13 +30,13 @@ VOCABULARY = {
         "blurb": "Distinctive non-base components (souring agent, sweetener, modifiers, aromatics).",
         "tags": ["Lime", "Mint", "Falernum", "Pineapple", "Mango", "Lemon", "Orange",
                  "Coconut", "Sugar", "Demerara", "Angostura", "Soda", "Campari",
-                 "Vermouth", "Egg", "Cream", "Ginger", "Coffee"],
+                 "Vermouth", "Egg", "Cream", "Ginger", "Coffee", "Honey", "Nutmeg"],
     },
     "Flavor / Profile": {
         "blurb": "The taste experience.",
         "tags": ["Refreshing", "Spiced", "Fruity", "Citrusy", "Tart", "Sweet",
                  "Bitter", "Herbal", "Boozy", "Complex", "Light", "Creamy",
-                 "Smoky", "Dry"],
+                 "Smoky", "Dry", "Spicy"],
     },
     "Technique": {
         "blurb": "How the drink is built.",
