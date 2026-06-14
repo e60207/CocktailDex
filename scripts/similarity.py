@@ -80,6 +80,9 @@ ALIASES = [
     (r"\b(brandy|cognac)\b",              "brandy"),
     (r"\b(triple sec|cointreau|curacao|curaçao|orange liqueur|grand marnier)\b", "orange-liqueur"),
     (r"\b(coffee liqueur|kahl[uú]a)\b",   "coffee-liqueur"),
+    (r"\bapricot\b",                      "fruit-liqueur"),
+    (r"\bchartreuse\b",                   "chartreuse"),
+    (r"\bcrme de menthe\b",               "menthe-liqueur"),
     (r"\bfalernum\b",                     "falernum"),
     (r"\bcampari\b",                      "campari"),
     (r"\bvermouth\b",                     "vermouth"),
@@ -102,7 +105,7 @@ ALIASES = [
     (r"\bsalt\b",                         "salt"),
 ]
 SOUR_RE  = re.compile(r"\b(lime|lemon|grapefruit|sour mix|citrus|verjus)\b", re.I)
-SWEET_RE = re.compile(r"\b(sugar|syrup|honey|agave|grenadine|falernum|orgeat|demerara|liqueur|cola)\b", re.I)
+SWEET_RE = re.compile(r"\b(sweet|sugar|syrup|honey|agave|grenadine|falernum|orgeat|demerara|liqueur|cola|chartreuse)\b", re.I)
 
 STOPWORDS = set("""a an and are as at be but by for from has have in into is it its
 of on or over that the their then this to until with your you all more most often

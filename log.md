@@ -5,6 +5,16 @@ gets a dated entry. Date prefixes are ISO `YYYY-MM-DD` so the log stays greppabl
 
 ## 2026-06-13 — Ingest
 
+- Ingested **Tradewinds** from `raw/inbox/Untitled.md` and **Bijou (Layered)** from `raw/inbox/Untitled 1.md`.
+- Completed Background and flavor profile from the web for both.
+- **Tradewinds**: Assigned 7 tags: `#Rum`, `#Lemon`, `#Coconut`, `#Refreshing`, `#Creamy`, `#Blended`, `#Tiki`. Linked **Other Similar Cocktails**: **Bermuda Rum Swizzle** and **Queen's Park Swizzle** (passing legacy §7).
+- **Bijou (Layered)**: Assigned 7 tags: `#Gin`, `#Vermouth`, `#Boozy`, `#Complex`, `#Herbal`, `#Layered`, `#Shot`. Linked **Other Similar Cocktails**: **Martini** and **Shamrock Cocktail**.
+- **Similarity engine**: Extended `ALIASES` in `scripts/similarity.py` to include **apricot** (as `fruit-liqueur`), **chartreuse**, and **crème de menthe** (as `menthe-liqueur`). Expanded `SWEET_RE` to include `sweet` and `chartreuse` to improve flavor detection.
+- Archived originals as `raw/archive/tradewinds.md` and `raw/archive/bijou-layered.md`.
+- Updated `index.md`, `tags.md`, and VitePress sidebar via `wiki.py compile`.
+
+## 2026-06-13 — Ingest
+
 - Ingested **Shamrock Cocktail** from `raw/inbox/Untitled.md`.
 - Completed Background and flavor profile from the web (Source: Difford's Guide).
 - Assigned 6 tags including the new Theme / Era dimension: `#Whiskey`, `#Herbal`, `#Stirred`, `#Martini`, `#Classic`, `#StPatricksDay`.

@@ -13,7 +13,7 @@ source: raw/archive/queens-park-swizzle.md
 
 **Background:** Created at the Queen's Park Hotel in Port of Spain, Trinidad (opened 1895), where its tall, swizzled signature drink — often called a "Mojito for grown-ups" — is generally dated to the 1920s, though firm documentation is thin. Trader Vic praised it in his 1946 *Book of Food and Drink* as "the most delightful form of anesthesia given out today" and printed it in the 1947 *Bartender's Guide*, spreading its fame. It swaps the Mojito's white rum for higher-proof Demerara rum and finishes with a cap of Angostura bitters. The original hotel closed in 1996, but the drink endures. (Sources: [Wikipedia](https://en.wikipedia.org/wiki/Queen's_Park_Swizzle), [Difford's Guide](https://www.diffordsguide.com/cocktails/recipe/2740/queens-park-swizzle))
 
-
+![](../photos/queens-park-swizzle/file-20260613231207813.jpg)
 
 - **Glassware:** Collins glass
 - **Ingredients:**

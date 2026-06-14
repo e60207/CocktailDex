@@ -1,11 +1,15 @@
 [
   {
-    "text": "Cocktails (13)",
+    "text": "Cocktails (15)",
     "collapsed": false,
     "items": [
       {
         "text": "Bermuda Rum Swizzle",
         "link": "/wiki/bermuda-rum-swizzle"
+      },
+      {
+        "text": "Bijou (Layered)",
+        "link": "/wiki/bijou-layered"
       },
       {
         "text": "Daiquiri",
@@ -50,6 +54,10 @@
       {
         "text": "The Salty Shaker",
         "link": "/wiki/the-salty-shaker"
+      },
+      {
+        "text": "Tradewinds",
+        "link": "/wiki/tradewinds"
       },
       {
         "text": "Whiskey Sour",

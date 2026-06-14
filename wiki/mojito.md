@@ -13,7 +13,7 @@ source: raw/archive/mojito.md
 
 **Background:** A Cuban highball from Havana whose ancestor, *El Draque* (named for the privateer Sir Francis Drake), combined crude cane spirit, lime, sugarcane and mint as a 16th-century tropical remedy. The modern version — white rum, lime, sugar, mint and soda — was popularised at La Bodeguita del Medio in the 1940s and is long associated with Ernest Hemingway. It went global in the 2000s and now sits among the world's most-ordered cocktails. (Source: [Wikipedia](https://en.wikipedia.org/wiki/Mojito))
 
-![Mojito](../photos/mojito.jpg)
+![](../photos/mojito/file-20260613224232722.jpg)
 
 - **Glassware:** Highball (Collins) glass
 - **Ingredients:**
