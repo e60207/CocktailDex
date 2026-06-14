@@ -13,7 +13,7 @@ source: raw/archive/Untitled.md
 
 **Background:** Named after the French 75mm field gun used in World War I, this cocktail was said to have a "kick" that felt like being hit by the powerful artillery piece. It was popularized at Harry's New York Bar in Paris and is essentially a Tom Collins made with Champagne instead of soda water. (source: https://www.diffordsguide.com/g/1154/french-75-cocktails)
 
-![](../photos/french-75/file-20260613002956812.jpg)
+![](../photos/french-75/file-20260613154846794.jpg)
 
 - **Glassware:** Flute
 - **Ingredients:**
