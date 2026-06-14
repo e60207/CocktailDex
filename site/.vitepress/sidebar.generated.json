@@ -1,6 +1,6 @@
 [
   {
-    "text": "Cocktails (18)",
+    "text": "Cocktails (20)",
     "collapsed": false,
     "items": [
       {
@@ -20,6 +20,10 @@
         "link": "/wiki/daiquiri"
       },
       {
+        "text": "Daiquiri (Frozen strawberry)",
+        "link": "/wiki/daiquiri-frozen-strawberry"
+      },
+      {
         "text": "Espresso Martini",
         "link": "/wiki/espresso-martini"
       },
@@ -30,6 +34,10 @@
       {
         "text": "Long Island Ice Tea",
         "link": "/wiki/long-island-ice-tea"
+      },
+      {
+        "text": "Manhattan",
+        "link": "/wiki/manhattan"
       },
       {
         "text": "Margarita (Classic)",

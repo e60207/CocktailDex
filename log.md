@@ -3,6 +3,27 @@
 Append-only, reverse-chronological (newest on top). Every Ingest / Query-of-note / Lint
 gets a dated entry. Date prefixes are ISO `YYYY-MM-DD` so the log stays greppable.
 
+## 2026-06-14 — Ingest
+
+- Ingested **Manhattan** from `raw/inbox/Untitled.md`.
+- Completed Background and Profile from the web (Source: Difford's Guide).
+- Assigned 7 tags: `#Whiskey`, `#Vermouth`, `#Angostura`, `#Boozy`, `#Complex`, `#Stirred`, `#Classic`.
+- **Similarity engine**: Linked **Other Similar Cocktails**: **Shamrock Cocktail** (fused 0.37).
+- **Mutual back-links**: Added **Manhattan** to the similarity list of **Shamrock Cocktail**.
+- Archived original as `raw/archive/manhattan.md`.
+- Updated `index.md`, `tags.md`, and VitePress sidebar via `wiki.py compile`.
+
+## 2026-06-14 — Ingest
+
+- Ingested **Daiquiri (Frozen strawberry)** from `raw/inbox/Untitled.md`.
+- Completed Background and Profile from the web (Source: copenhagendistillery.com).
+- Assigned 7 tags: `#Rum`, `#Lime`, `#Strawberry`, `#Refreshing`, `#Fruity`, `#Blended`, `#Sour`.
+- **Vocabulary update**: Added `Strawberry` to **Ingredient** in `scripts/wiki.py`.
+- **Similarity engine**: Extended `ALIASES` in `scripts/similarity.py` to include **strawberry**.
+- **Mutual back-links**: Added **Daiquiri (Frozen strawberry)** to the similarity lists of **Daiquiri**, **Mojito**, and **Queen's Park Swizzle**.
+- Archived original as `raw/archive/daiquiri-frozen-strawberry.md`.
+- Updated `index.md`, `tags.md`, and VitePress sidebar via `wiki.py compile`.
+
 ## 2026-06-13 — Ingest
 
 - Ingested **Penicillin**, **B-52**, and **Rum Flip** from `raw/inbox/`.

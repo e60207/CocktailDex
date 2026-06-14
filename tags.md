@@ -19,10 +19,10 @@ index**: under each tag, every cocktail that carries it.
 
 **Vocabulary:** ● `#Rum` · ● `#Gin` · ● `#Vodka` · ● `#Whiskey` · ● `#Tequila` · ○ `#Mezcal` · ○ `#Brandy` · ○ `#Cognac` · ○ `#Aquavit` · ● `#Liqueur` · ○ `#FortifiedWine` · ● `#Wine`
 
-- **#Rum** — [Bermuda Rum Swizzle](./wiki/bermuda-rum-swizzle.md), [Daiquiri](./wiki/daiquiri.md), [Long Island Ice Tea](./wiki/long-island-ice-tea.md), [Mojito](./wiki/mojito.md), [Queen's Park Swizzle](./wiki/queens-park-swizzle.md), [Rum Flip](./wiki/rum-flip.md), [Tradewinds](./wiki/tradewinds.md)
+- **#Rum** — [Bermuda Rum Swizzle](./wiki/bermuda-rum-swizzle.md), [Daiquiri](./wiki/daiquiri.md), [Daiquiri (Frozen strawberry)](./wiki/daiquiri-frozen-strawberry.md), [Long Island Ice Tea](./wiki/long-island-ice-tea.md), [Mojito](./wiki/mojito.md), [Queen's Park Swizzle](./wiki/queens-park-swizzle.md), [Rum Flip](./wiki/rum-flip.md), [Tradewinds](./wiki/tradewinds.md)
 - **#Gin** — [Bijou (Layered)](./wiki/bijou-layered.md), [French 75](./wiki/french-75.md), [Long Island Ice Tea](./wiki/long-island-ice-tea.md), [Martini](./wiki/martini.md)
 - **#Vodka** — [Espresso Martini](./wiki/espresso-martini.md), [Long Island Ice Tea](./wiki/long-island-ice-tea.md)
-- **#Whiskey** — [Penicillin](./wiki/penicillin.md), [Shamrock Cocktail](./wiki/shamrock-cocktail.md), [The Salty Shaker](./wiki/the-salty-shaker.md), [Whiskey Sour](./wiki/whiskey-sour.md)
+- **#Whiskey** — [Manhattan](./wiki/manhattan.md), [Penicillin](./wiki/penicillin.md), [Shamrock Cocktail](./wiki/shamrock-cocktail.md), [The Salty Shaker](./wiki/the-salty-shaker.md), [Whiskey Sour](./wiki/whiskey-sour.md)
 - **#Tequila** — [Long Island Ice Tea](./wiki/long-island-ice-tea.md), [Margarita (Classic)](./wiki/margarita-classic.md)
 - **#Liqueur** — [B-52](./wiki/b-52.md)
 - **#Wine** — [French 75](./wiki/french-75.md), [Sangria](./wiki/sangria.md)
@@ -32,9 +32,9 @@ index**: under each tag, every cocktail that carries it.
 ## 2. Ingredient
 *Distinctive non-base components (souring agent, sweetener, modifiers, aromatics).*
 
-**Vocabulary:** ● `#Lime` · ● `#Mint` · ● `#Falernum` · ● `#Pineapple` · ● `#Mango` · ● `#Lemon` · ● `#Orange` · ● `#Coconut` · ● `#Sugar` · ○ `#Demerara` · ○ `#Angostura` · ○ `#Soda` · ○ `#Campari` · ● `#Vermouth` · ● `#Egg` · ○ `#Cream` · ● `#Ginger` · ● `#Coffee` · ● `#Honey` · ● `#Nutmeg`
+**Vocabulary:** ● `#Lime` · ● `#Mint` · ● `#Falernum` · ● `#Pineapple` · ● `#Mango` · ● `#Lemon` · ● `#Orange` · ● `#Coconut` · ● `#Sugar` · ○ `#Demerara` · ● `#Angostura` · ○ `#Soda` · ○ `#Campari` · ● `#Vermouth` · ● `#Egg` · ○ `#Cream` · ● `#Ginger` · ● `#Coffee` · ● `#Honey` · ● `#Nutmeg` · ● `#Strawberry`
 
-- **#Lime** — [Daiquiri](./wiki/daiquiri.md), [Margarita (Classic)](./wiki/margarita-classic.md), [Mojito](./wiki/mojito.md), [Queen's Park Swizzle](./wiki/queens-park-swizzle.md), [The Salty Shaker](./wiki/the-salty-shaker.md)
+- **#Lime** — [Daiquiri](./wiki/daiquiri.md), [Daiquiri (Frozen strawberry)](./wiki/daiquiri-frozen-strawberry.md), [Margarita (Classic)](./wiki/margarita-classic.md), [Mojito](./wiki/mojito.md), [Queen's Park Swizzle](./wiki/queens-park-swizzle.md), [The Salty Shaker](./wiki/the-salty-shaker.md)
 - **#Mint** — [Mojito](./wiki/mojito.md), [Queen's Park Swizzle](./wiki/queens-park-swizzle.md)
 - **#Falernum** — [Bermuda Rum Swizzle](./wiki/bermuda-rum-swizzle.md)
 - **#Pineapple** — [Bermuda Rum Swizzle](./wiki/bermuda-rum-swizzle.md)
@@ -43,12 +43,14 @@ index**: under each tag, every cocktail that carries it.
 - **#Orange** — [B-52](./wiki/b-52.md), [Margarita (Classic)](./wiki/margarita-classic.md), [Sangria](./wiki/sangria.md)
 - **#Coconut** — [Tradewinds](./wiki/tradewinds.md)
 - **#Sugar** — [Espresso Martini](./wiki/espresso-martini.md), [Whiskey Sour](./wiki/whiskey-sour.md)
-- **#Vermouth** — [Bijou (Layered)](./wiki/bijou-layered.md), [Martini](./wiki/martini.md)
+- **#Angostura** — [Manhattan](./wiki/manhattan.md)
+- **#Vermouth** — [Bijou (Layered)](./wiki/bijou-layered.md), [Manhattan](./wiki/manhattan.md), [Martini](./wiki/martini.md)
 - **#Egg** — [Rum Flip](./wiki/rum-flip.md), [Whiskey Sour](./wiki/whiskey-sour.md)
 - **#Ginger** — [Penicillin](./wiki/penicillin.md)
 - **#Coffee** — [B-52](./wiki/b-52.md), [Espresso Martini](./wiki/espresso-martini.md)
 - **#Honey** — [Penicillin](./wiki/penicillin.md)
 - **#Nutmeg** — [Rum Flip](./wiki/rum-flip.md)
+- **#Strawberry** — [Daiquiri (Frozen strawberry)](./wiki/daiquiri-frozen-strawberry.md)
 
 ---
 
@@ -57,13 +59,13 @@ index**: under each tag, every cocktail that carries it.
 
 **Vocabulary:** ● `#Refreshing` · ● `#Spiced` · ● `#Fruity` · ○ `#Citrusy` · ● `#Tart` · ○ `#Sweet` · ○ `#Bitter` · ● `#Herbal` · ● `#Boozy` · ● `#Complex` · ○ `#Light` · ● `#Creamy` · ● `#Smoky` · ● `#Dry` · ● `#Spicy`
 
-- **#Refreshing** — [Daiquiri](./wiki/daiquiri.md), [French 75](./wiki/french-75.md), [Long Island Ice Tea](./wiki/long-island-ice-tea.md), [Mojito](./wiki/mojito.md), [Sangria](./wiki/sangria.md), [The Salty Shaker](./wiki/the-salty-shaker.md), [Tradewinds](./wiki/tradewinds.md)
+- **#Refreshing** — [Daiquiri](./wiki/daiquiri.md), [Daiquiri (Frozen strawberry)](./wiki/daiquiri-frozen-strawberry.md), [French 75](./wiki/french-75.md), [Long Island Ice Tea](./wiki/long-island-ice-tea.md), [Mojito](./wiki/mojito.md), [Sangria](./wiki/sangria.md), [The Salty Shaker](./wiki/the-salty-shaker.md), [Tradewinds](./wiki/tradewinds.md)
 - **#Spiced** — [Queen's Park Swizzle](./wiki/queens-park-swizzle.md), [The Salty Shaker](./wiki/the-salty-shaker.md)
-- **#Fruity** — [Bermuda Rum Swizzle](./wiki/bermuda-rum-swizzle.md), [Sangria](./wiki/sangria.md)
+- **#Fruity** — [Bermuda Rum Swizzle](./wiki/bermuda-rum-swizzle.md), [Daiquiri (Frozen strawberry)](./wiki/daiquiri-frozen-strawberry.md), [Sangria](./wiki/sangria.md)
 - **#Tart** — [Margarita (Classic)](./wiki/margarita-classic.md)
 - **#Herbal** — [Bijou (Layered)](./wiki/bijou-layered.md), [Shamrock Cocktail](./wiki/shamrock-cocktail.md)
-- **#Boozy** — [Bijou (Layered)](./wiki/bijou-layered.md), [Espresso Martini](./wiki/espresso-martini.md), [Long Island Ice Tea](./wiki/long-island-ice-tea.md)
-- **#Complex** — [Bijou (Layered)](./wiki/bijou-layered.md), [Espresso Martini](./wiki/espresso-martini.md)
+- **#Boozy** — [Bijou (Layered)](./wiki/bijou-layered.md), [Espresso Martini](./wiki/espresso-martini.md), [Long Island Ice Tea](./wiki/long-island-ice-tea.md), [Manhattan](./wiki/manhattan.md)
+- **#Complex** — [Bijou (Layered)](./wiki/bijou-layered.md), [Espresso Martini](./wiki/espresso-martini.md), [Manhattan](./wiki/manhattan.md)
 - **#Creamy** — [B-52](./wiki/b-52.md), [Tradewinds](./wiki/tradewinds.md)
 - **#Smoky** — [Penicillin](./wiki/penicillin.md)
 - **#Dry** — [Martini](./wiki/martini.md)
@@ -78,9 +80,9 @@ index**: under each tag, every cocktail that carries it.
 
 - **#Shaken** — [Daiquiri](./wiki/daiquiri.md), [Espresso Martini](./wiki/espresso-martini.md), [French 75](./wiki/french-75.md), [Margarita (Classic)](./wiki/margarita-classic.md), [The Salty Shaker](./wiki/the-salty-shaker.md), [Whiskey Sour](./wiki/whiskey-sour.md)
 - **#Swizzle** — [Bermuda Rum Swizzle](./wiki/bermuda-rum-swizzle.md), [Queen's Park Swizzle](./wiki/queens-park-swizzle.md)
-- **#Stirred** — [Martini](./wiki/martini.md), [Shamrock Cocktail](./wiki/shamrock-cocktail.md)
+- **#Stirred** — [Manhattan](./wiki/manhattan.md), [Martini](./wiki/martini.md), [Shamrock Cocktail](./wiki/shamrock-cocktail.md)
 - **#Built** — [Mojito](./wiki/mojito.md), [Sangria](./wiki/sangria.md)
-- **#Blended** — [Tradewinds](./wiki/tradewinds.md)
+- **#Blended** — [Daiquiri (Frozen strawberry)](./wiki/daiquiri-frozen-strawberry.md), [Tradewinds](./wiki/tradewinds.md)
 - **#Layered** — [B-52](./wiki/b-52.md), [Bijou (Layered)](./wiki/bijou-layered.md)
 - **#DryShake** — [Rum Flip](./wiki/rum-flip.md)
 
@@ -93,7 +95,7 @@ index**: under each tag, every cocktail that carries it.
 
 - **#Tiki** — [Bermuda Rum Swizzle](./wiki/bermuda-rum-swizzle.md), [Queen's Park Swizzle](./wiki/queens-park-swizzle.md), [Tradewinds](./wiki/tradewinds.md)
 - **#Highball** — [Long Island Ice Tea](./wiki/long-island-ice-tea.md), [Mojito](./wiki/mojito.md)
-- **#Sour** — [Daiquiri](./wiki/daiquiri.md), [Margarita (Classic)](./wiki/margarita-classic.md), [The Salty Shaker](./wiki/the-salty-shaker.md), [Whiskey Sour](./wiki/whiskey-sour.md)
+- **#Sour** — [Daiquiri](./wiki/daiquiri.md), [Daiquiri (Frozen strawberry)](./wiki/daiquiri-frozen-strawberry.md), [Margarita (Classic)](./wiki/margarita-classic.md), [The Salty Shaker](./wiki/the-salty-shaker.md), [Whiskey Sour](./wiki/whiskey-sour.md)
 - **#Martini** — [Martini](./wiki/martini.md), [Shamrock Cocktail](./wiki/shamrock-cocktail.md)
 - **#Fizz** — [French 75](./wiki/french-75.md)
 - **#Punch** — [Sangria](./wiki/sangria.md)
@@ -121,10 +123,10 @@ index**: under each tag, every cocktail that carries it.
 
 **Vocabulary:** ● `#Classic` · ● `#ModernClassic` · ○ `#Contemporary` · ○ `#Original` · ○ `#Halloween` · ● `#StPatricksDay`
 
-- **#Classic** — [B-52](./wiki/b-52.md), [Rum Flip](./wiki/rum-flip.md), [Shamrock Cocktail](./wiki/shamrock-cocktail.md)
+- **#Classic** — [B-52](./wiki/b-52.md), [Manhattan](./wiki/manhattan.md), [Rum Flip](./wiki/rum-flip.md), [Shamrock Cocktail](./wiki/shamrock-cocktail.md)
 - **#ModernClassic** — [Penicillin](./wiki/penicillin.md)
 - **#StPatricksDay** — [Shamrock Cocktail](./wiki/shamrock-cocktail.md)
 
 ---
 
-*Regenerated by `scripts/wiki.py compile` on 2026-06-13.*
+*Regenerated by `scripts/wiki.py compile` on 2026-06-14.*

@@ -100,6 +100,7 @@ ALIASES = [
     (r"\b(cola|coke)\b",                  "cola"),
     (r"\bginger\b",                       "ginger"),
     (r"\b(espresso|coffee)\b",            "coffee"),
+    (r"\bstrawberr",                      "strawberry"),
     (r"\begg\b",                          "egg"),
     (r"\bcream\b",                        "cream"),
     (r"\bsalt\b",                         "salt"),
