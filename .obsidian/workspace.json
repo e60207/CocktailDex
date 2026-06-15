@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/manhattan.md",
+                "file": "wiki/scofflaw.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "manhattan"
+              "title": "scofflaw"
             }
           }
         ]
@@ -196,12 +196,16 @@
   },
   "active": "a5792ee10cb62ff7",
   "lastOpenFiles": [
-    "photos/manhattan/file-20260614010922018.jpg",
-    "photos/manhattan",
+    "photos/scofflaw/file-20260614230351680.jpg",
+    "photos/scofflaw",
     "raw/inbox/README.md",
     "raw/inbox/Untitled.md",
-    "raw/archive/manhattan.md",
+    "raw/archive/scofflaw.md",
+    "wiki/scofflaw.md",
     "wiki/manhattan.md",
+    "photos/manhattan/file-20260614010922018.jpg",
+    "photos/manhattan",
+    "raw/archive/manhattan.md",
     "wiki/daiquiri-frozen-strawberry.md",
     "photos/daiquiri-frozen-strawberry/file-20260614005637034.jpg",
     "photos/daiquiri-frozen-strawberry",
@@ -231,16 +235,12 @@
     "wiki/margarita-classic.md",
     "wiki/martini.md",
     "wiki/mojito.md",
-    "wiki/espresso-martini.md",
-    "raw/inbox/Untitled 1.md",
     "photos/bermuda-rum-swizzle/file-20260613231301001.jpg",
     "photos/queens-park-swizzle/file-20260613231207813.jpg",
     "photos/queens-park-swizzle",
     "photos/tradewinds/file-20260613230926871.jpg",
     "photos/tradewinds/file-20260613230913998.jpg",
     "photos/tradewinds",
-    "photos/bijou-layered/file-20260613230853887.jpg",
-    "photos/bijou-layered",
-    "photos/bermuda-rum-swizzle"
+    "photos/bijou-layered"
   ]
 }

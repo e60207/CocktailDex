@@ -5,6 +5,16 @@ gets a dated entry. Date prefixes are ISO `YYYY-MM-DD` so the log stays greppabl
 
 ## 2026-06-14 — Ingest
 
+- Ingested **Scofflaw** from `raw/inbox/Untitled.md`.
+- Completed Background and historical context from the web (Source: thekitchn.com).
+- Assigned 7 tags: `#Whiskey`, `#Vermouth`, `#Lemon`, `#Citrusy`, `#Tart`, `#Shaken`, `#Classic`.
+- **Similarity engine**: Linked **Other Similar Cocktails**: **Whiskey Sour** (fused 0.41).
+- **Mutual back-links**: Added **Scofflaw** to the similarity list of **Whiskey Sour**.
+- Archived original as `raw/archive/scofflaw.md`.
+- Updated `index.md`, `tags.md`, and VitePress sidebar via `wiki.py compile`.
+
+## 2026-06-14 — Ingest
+
 - Ingested **Manhattan** from `raw/inbox/Untitled.md`.
 - Completed Background and Profile from the web (Source: Difford's Guide).
 - Assigned 7 tags: `#Whiskey`, `#Vermouth`, `#Angostura`, `#Boozy`, `#Complex`, `#Stirred`, `#Classic`.
