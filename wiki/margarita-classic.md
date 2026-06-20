@@ -13,7 +13,7 @@ source: raw/archive/Untitled 1.md
 
 **Background:** The Margarita is most likely a tequila-based evolution of the "Daisy" (Spanish for Margarita), a family of cocktails consisting of a spirit, citrus, and orange liqueur. While many legends claim it was named after various socialites or showgirls in the 1930s and 40s, it has become the world's most iconic tequila cocktail. (source: https://www.wineenthusiast.com/culture/spirits/history-of-the-margarita/)
 
-![](../photos/margarita-classic/file-20260613003112548.jpg)
+![](../photos/_TBD/pending-cocktails.jpg)
 
 - **Glassware:** Rocks
 - **Ingredients:**

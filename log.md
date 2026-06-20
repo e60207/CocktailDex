@@ -3,6 +3,24 @@
 Append-only, reverse-chronological (newest on top). Every Ingest / Query-of-note / Lint
 gets a dated entry. Date prefixes are ISO `YYYY-MM-DD` so the log stays greppable.
 
+## 2026-06-20 — Ingest
+
+- Ingested **Tipperary** from `raw/inbox/Untitled.md` and **The Belmont Jewel** from `raw/inbox/Untitled 1.md`.
+- Completed details from the web (Background, Glassware, Profile, and Tags).
+- Both new cocktails defaulted to using `![](../photos/_TBD/pending-cocktails.jpg)` as their photo links.
+- **Similarity engine**: Linked **Other Similar Cocktails**:
+  - **Tipperary**: Linked to **Manhattan** (fused 0.58) and **Shamrock Cocktail** (fused 0.57).
+  - **The Belmont Jewel**: Linked to **Scofflaw** (fused 0.41) and **Whiskey Sour** (fused 0.40).
+- **Mutual back-links**: Added **Tipperary** to **Manhattan** and **Shamrock Cocktail**, and **The Belmont Jewel** to **Scofflaw** and **Whiskey Sour**.
+- Archived originals as `raw/archive/tipperary.md` and `raw/archive/the-belmont-jewel.md`.
+- Updated `index.md`, `tags.md`, and VitePress sidebar via `wiki.py compile`.
+
+## 2026-06-20 — Configuration Update
+
+- Updated `CLAUDE.md` §3b to use `![](../photos/_TBD/pending-cocktails.jpg)` as the default photo link for future cocktail card generation.
+- Configured stdout of `scripts/wiki.py` to use UTF-8 on Windows to resolve console encoding crashes.
+- Updated last-updated dates in `CLAUDE.md` and `GEMINI.md`.
+
 ## 2026-06-14 — Ingest
 
 - Ingested **Scofflaw** from `raw/inbox/Untitled.md`.

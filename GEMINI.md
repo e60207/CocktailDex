@@ -32,4 +32,4 @@ environment:
 > If the `@./CLAUDE.md` import ever fails to resolve (e.g. the file was moved), the rulebook
 > is still readable directly at `./CLAUDE.md` — open and follow it before doing any work.
 
-*Last updated: 2026-06-08. Keep this shim thin; put real rules in `CLAUDE.md`.*
+*Last updated: 2026-06-20. Keep this shim thin; put real rules in `CLAUDE.md`.*

@@ -37,4 +37,4 @@ source: raw/archive/scofflaw.md
 
 **!!Tips:** N/A
 
-**Other Similar Cocktails:** [Whiskey Sour](./whiskey-sour.md) (fused 0.41 — same Whiskey base; shared lemon & sugar; same technique Shaken)
+**Other Similar Cocktails:** [The Belmont Jewel](./the-belmont-jewel.md) (fused 0.41 — same Whiskey base; shared lemon; both Shaken), [Whiskey Sour](./whiskey-sour.md) (fused 0.41 — same Whiskey base; shared lemon & sugar; same technique Shaken)

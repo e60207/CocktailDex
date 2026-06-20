@@ -12,6 +12,12 @@ from __future__ import annotations
 import re, sys, json, datetime
 from pathlib import Path
 
+# Make emoji-bearing output safe on consoles whose default encoding isn't UTF-8
+try:
+    sys.stdout.reconfigure(encoding="utf-8")
+except (AttributeError, ValueError):
+    pass
+
 ROOT        = Path(__file__).resolve().parent.parent
 WIKI        = ROOT / "wiki"
 RAW_INBOX   = ROOT / "raw" / "inbox"

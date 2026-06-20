@@ -13,7 +13,7 @@ source: raw/archive/long-island-ice-tea.md
 
 **Background:** The Long Island Iced Tea's origin is a subject of debate between two primary claims. The most widely accepted version credits Robert "Rosebud" Butt with inventing the cocktail in 1972 at the Oak Beach Inn in Hampton Bays, New York, for a contest to create a new drink using Triple Sec. A competing legend suggests it was created during 1920s Prohibition by "Old Man" Bishop in Kingsport, Tennessee, who used maple syrup and five liquors to disguise the drink as iced tea. (source: https://www.spiritsanddistilling.com/long-island-iced-tea-history/)
 
-![](../photos/long-island-ice-tea/file-20260611003229561.jpg)
+![](../photos/_TBD/pending-cocktails.jpg)
 
 - **Glassware:** Pint glass (Collins)
 - **Ingredients:**

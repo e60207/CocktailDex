@@ -37,4 +37,4 @@ source: raw/archive/whiskey-sour.md
 
 **!!Tips:** N/A
 
-**Other Similar Cocktails:** [Penicillin](./penicillin.md) (fused 0.436 — same Whiskey base; shared lemon & sugar), [Scofflaw](./scofflaw.md) (fused 0.41 — same Whiskey base; shared lemon & sugar; same technique Shaken)
+**Other Similar Cocktails:** [Penicillin](./penicillin.md) (fused 0.44 — same Whiskey base; shared lemon & sugar), [Scofflaw](./scofflaw.md) (fused 0.41 — same Whiskey base; shared lemon & sugar; same technique Shaken), [The Belmont Jewel](./the-belmont-jewel.md) (fused 0.40 — same Whiskey base; shared lemon & sugar; both Shaken)

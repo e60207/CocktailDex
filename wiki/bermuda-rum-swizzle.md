@@ -13,7 +13,7 @@ source: raw/archive/bermuda-rum-swizzle.md
 
 **Background:** Often called Bermuda's national drink, the Rum Swizzle is named for its preparation — frothing the mix with a swizzle stick — rather than a fixed recipe. It is closely tied to the Swizzle Inn in Bailey's Bay, which opened in 1932. The island build leans on Gosling's Black Seal and gold rums with citrus, Falernum and Angostura bitters, swizzled over crushed ice until a frothy head appears. (Sources: [Wikipedia](https://en.wikipedia.org/wiki/Rum_swizzle), [Smithsonian](https://www.smithsonianmag.com/travel/story-behind-bermudas-rum-swizzle-cocktail-180971701/))
 
-![](../photos/bermuda-rum-swizzle/file-20260613231301001.jpg)
+![](../photos/_TBD/pending-cocktails.jpg)
 
 - **Glassware:** Collins / Highball glass
 - **Ingredients:**

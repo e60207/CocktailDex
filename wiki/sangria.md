@@ -13,7 +13,7 @@ source: raw/archive/sangria.md
 
 **Background:** A traditional wine punch from Spain and Portugal, Sangria's name derives from the Spanish *sangre* (blood), referring to the dark red wine base. While its roots trace back to Roman-era "Hippocras" (wine mixed with sugar and spices), the modern version became an international sensation after the 1964 New York World's Fair. It typically combines red wine with brandy, fruit, and sweeteners, macerated overnight to allow flavors to meld. (Source: [thisdayinwinehistory.com](https://thisdayinwinehistory.com/the-history-of-sangria/))
 
-![Sangria](../photos/sangria.jpg)
+![](../photos/_TBD/pending-cocktails.jpg)
 
 - **Glassware:** Pitcher, and other serving glasses
 - **Ingredients:**

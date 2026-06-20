@@ -1,6 +1,6 @@
 [
   {
-    "text": "Cocktails (21)",
+    "text": "Cocktails (23)",
     "collapsed": false,
     "items": [
       {
@@ -76,8 +76,16 @@
         "link": "/wiki/shamrock-cocktail"
       },
       {
+        "text": "The Belmont Jewel",
+        "link": "/wiki/the-belmont-jewel"
+      },
+      {
         "text": "The Salty Shaker",
         "link": "/wiki/the-salty-shaker"
+      },
+      {
+        "text": "Tipperary",
+        "link": "/wiki/tipperary"
       },
       {
         "text": "Tradewinds",

@@ -13,7 +13,7 @@ source: raw/archive/daiquiri.md
 
 **Background:** Named after the Daiquirí beach and iron mines near Santiago de Cuba, the drink was popularised around 1898 by American mining engineer Jennings Cox during the Spanish–American War era. A pristine three-ingredient Cuban classic — white rum, fresh lime, and sugar — it is the textbook member of the Sour family and an IBA "Unforgettable" cocktail. Its balance of strong, sour and sweet is the template countless other drinks are measured against. (Source: [Wikipedia](https://en.wikipedia.org/wiki/Daiquiri))
 
-![Daiquiri](../photos/daiquiri.jpg)
+![](../photos/_TBD/pending-cocktails.jpg)
 
 - **Glassware:** Coupe
 - **Ingredients:**

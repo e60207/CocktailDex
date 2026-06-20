@@ -36,4 +36,4 @@ source: raw/archive/shamrock-cocktail.md
 
 **!!Tips:** Can replace Dry vermouth with Blanc vermouth for a richer profile.
 
-**Other Similar Cocktails:** [Manhattan](./manhattan.md) (fused 0.37 — same Whiskey base; same Stirred technique; both Classic)
+**Other Similar Cocktails:** [Tipperary](./tipperary.md) (fused 0.57 — same Whiskey base; shared vermouth & Chartreuse; both Stirred), [Manhattan](./manhattan.md) (fused 0.37 — same Whiskey base; same Stirred technique; both Classic)

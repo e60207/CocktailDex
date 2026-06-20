@@ -103,7 +103,7 @@ Raw cards in `archive/` do **not** get frontmatter — they mirror what the owne
 **Background:** {2–4 sentences of history/origin. If completed from the web, end with a
 source link: (source: https://…). Never invent history.}
 
-![{Name}](../photos/{slug}.jpg)
+![](../photos/_TBD/pending-cocktails.jpg)
 
 - **Glassware:** {glass type}
 - **Ingredients:**
@@ -412,4 +412,4 @@ grep -ril "#Swizzle"        wiki/    # by technique
 grep -L   "Eric.*[\d.] / 5" wiki/*.md # cards still missing Eric's rating
 ```
 
-*Last updated: 2026-06-13. This file is the schema; keep it current if the workflow changes.*
+*Last updated: 2026-06-20. This file is the schema; keep it current if the workflow changes.*
