@@ -5,7 +5,7 @@ base: Rum
 tags: [Rum, Lime, Shaken, Sour, Refreshing, Coupe]
 glassware: Coupe
 ingested: 2026-06-08
-updated: 2026-06-12
+updated: 2026-06-21
 source: raw/archive/daiquiri.md
 ---
 
@@ -35,4 +35,4 @@ source: raw/archive/daiquiri.md
 
 **!!Tips:** N/A
 
-**Other Similar Cocktails:** [Daiquiri (Frozen strawberry)](./daiquiri-frozen-strawberry.md) (fused 0.613 — same Rum base; same family (Sour); shared lime & sugar; both Refreshing), [Mojito](./mojito.md) (fused 0.51 — same Rum base; shared lime & sugar; both Refreshing), [Queen's Park Swizzle](./queens-park-swizzle.md) (fused 0.44 — same Rum base; shared lime & sugar)
+**Other Similar Cocktails:** [Daiquiri (Frozen strawberry)](./daiquiri-frozen-strawberry.md) (fused 0.611 — same Rum base; same family (Sour); shared lime & sugar; both Refreshing), [Caipirinha](./caipirinha.md) (fused 0.660 — same Rum base; same family (Sour); shared lime & sugar; both Refreshing), [Mojito](./mojito.md) (fused 0.483 — same Rum base; shared lime & sugar; both Refreshing), [Queen's Park Swizzle](./queens-park-swizzle.md) (fused 0.422 — same Rum base; shared lime & sugar)

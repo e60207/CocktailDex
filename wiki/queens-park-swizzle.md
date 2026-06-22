@@ -5,7 +5,7 @@ base: Rum
 tags: [Rum, Mint, Lime, Swizzle, Tiki, Spiced, Collins]
 glassware: Collins
 ingested: 2026-06-08
-updated: 2026-06-12
+updated: 2026-06-21
 source: raw/archive/queens-park-swizzle.md
 ---
 
@@ -37,4 +37,4 @@ source: raw/archive/queens-park-swizzle.md
 
 **!!Tips:** N/A
 
-**Other Similar Cocktails:** [Daiquiri (Frozen strawberry)](./daiquiri-frozen-strawberry.md) (fused 0.383 — same Rum base; shared lime & sugar), [Mojito](./mojito.md) (fused 0.49 — same Rum base; shared lime, mint & sugar), [Daiquiri](./daiquiri.md) (fused 0.44 — same Rum base; shared lime & sugar), [Bermuda Rum Swizzle](./bermuda-rum-swizzle.md) (fused 0.38 — same Rum base; same Tiki family & Swizzle technique; shared rum & bitters)
+**Other Similar Cocktails:** [Daiquiri (Frozen strawberry)](./daiquiri-frozen-strawberry.md) (fused 0.389 — same Rum base; shared lime & sugar), [Mojito](./mojito.md) (fused 0.462 — same Rum base; shared lime, mint & sugar), [Daiquiri](./daiquiri.md) (fused 0.422 — same Rum base; shared lime & sugar), [Caipirinha](./caipirinha.md) (fused 0.383 — same Rum base; shared lime & sugar), [Bermuda Rum Swizzle](./bermuda-rum-swizzle.md) (fused 0.38 — same Rum base; same Tiki family & Swizzle technique; shared rum & bitters)

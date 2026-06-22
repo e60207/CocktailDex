@@ -1,6 +1,6 @@
 [
   {
-    "text": "Cocktails (23)",
+    "text": "Cocktails (25)",
     "collapsed": false,
     "items": [
       {
@@ -14,6 +14,10 @@
       {
         "text": "Bijou (Layered)",
         "link": "/wiki/bijou-layered"
+      },
+      {
+        "text": "Caipirinha",
+        "link": "/wiki/caipirinha"
       },
       {
         "text": "Daiquiri",
@@ -50,6 +54,10 @@
       {
         "text": "Mojito",
         "link": "/wiki/mojito"
+      },
+      {
+        "text": "Pago Pago",
+        "link": "/wiki/pago-pago"
       },
       {
         "text": "Penicillin",

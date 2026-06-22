@@ -27,7 +27,7 @@ source: raw/archive/the-belmont-jewel.md
 - **Profile:** Tart, fruity, and refreshing
 - **Tags:** #Whiskey #Lemon #Mint #Refreshing #Fruity #Shaken #Highball
 
-**Eric — Rating:** _ / 5
+**Eric — Rating:** 3 / 5
 > Make sure do not over dilute the drink. Can easily go bland when overdiluted.
 
 **Charlene — Rating:** _ / 5

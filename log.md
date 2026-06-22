@@ -3,6 +3,41 @@
 Append-only, reverse-chronological (newest on top). Every Ingest / Query-of-note / Lint
 gets a dated entry. Date prefixes are ISO `YYYY-MM-DD` so the log stays greppable.
 
+## 2026-06-21 — Ingest
+
+**Added:** Pago Pago ([wiki/pago-pago.md](./wiki/pago-pago.md))
+
+**Completed from the web:**
+- Background: classic Daiquiri variant circa 1940, credited to Ronrico rum brand; first appeared in *The How and When* (Gale & Marco, 2nd ed., 1940); named after Pago Pago, capital of American Samoa. (source: https://punchdrink.com/articles/pago-pago-echo-lake-chartreuse-daiquiri-cocktail-recipe/)
+- Glassware: Coupe (cocktail glass per original recipe)
+- Profile: tropical and complex — pineapple, herbal Chartreuse, whisper of chocolate, bright lime backbone
+
+**New tag added to VOCABULARY:** `Chartreuse` (Ingredient dimension) — first used by Pago Pago.
+
+**Similarity:** No candidates reached the ✅ link threshold (0.38); Daiquiri was closest at fused 0.363. "Other Similar Cocktails" left as TBD.
+
+**Lint:** 0 errors, 0 warnings.
+
+## 2026-06-21 — Ingest
+
+- Completed **Caipirinha** from `raw/inbox/Untitled.md` (the card already existed in `wiki/` with
+  Background/Profile/tags filled in from a prior session, but had never been archived or linked —
+  treated as still-pending per the inbox/archive state machine).
+- Verified Background/era against [Wikipedia](https://en.wikipedia.org/wiki/Caipirinha): early-20th-century
+  Brazilian origin, official cultural-heritage status (2003) — confirms the existing `#Classic` tag.
+  No other fields needed completion; carried Eric's rating (4.5/5) and !!Tips verbatim (human-only).
+- **Similarity engine**: ran `similarity.py report` — linked **Caipirinha** to its 4 ✅ candidates:
+  **Daiquiri** (fused 0.660), **Daiquiri (Frozen strawberry)** (fused 0.559), **Mojito** (fused 0.492),
+  **Queen's Park Swizzle** (fused 0.383).
+- **Mutual back-links**: added **Caipirinha** to the "Other Similar Cocktails" line on **Daiquiri**,
+  **Daiquiri (Frozen strawberry)**, **Mojito**, and **Queen's Park Swizzle**; refreshed the other
+  drifted fused scores on those 4 cards to match the current corpus (left **Queen's Park Swizzle**'s
+  existing **Bermuda Rum Swizzle** link at 0.38 untouched — within the hysteresis band).
+- Archived original as `raw/archive/caipirinha.md`.
+- `wiki.py compile` / `wiki.py lint` / `similarity.py gaps` all clean after the change.
+- **Note:** a second, blank `raw/inbox/Untitled.md` (empty template) appeared mid-session — left
+  as-is in the inbox since it has no content yet to ingest.
+
 ## 2026-06-20 — Ingest
 
 - Ingested **Tipperary** from `raw/inbox/Untitled.md` and **The Belmont Jewel** from `raw/inbox/Untitled 1.md`.

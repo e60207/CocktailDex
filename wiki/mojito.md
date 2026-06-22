@@ -5,7 +5,7 @@ base: Rum
 tags: [Rum, Mint, Lime, Built, Highball, Refreshing, HighballGlass]
 glassware: HighballGlass
 ingested: 2026-06-08
-updated: 2026-06-12
+updated: 2026-06-21
 source: raw/archive/mojito.md
 ---
 
@@ -37,4 +37,4 @@ source: raw/archive/mojito.md
 
 **!!Tips:** N/A
 
-**Other Similar Cocktails:** [Daiquiri (Frozen strawberry)](./daiquiri-frozen-strawberry.md) (fused 0.436 — same Rum base; shared lime & sugar; both Refreshing), [Daiquiri](./daiquiri.md) (fused 0.51 — same Rum base; shared lime & sugar; both Refreshing), [Queen's Park Swizzle](./queens-park-swizzle.md) (fused 0.49 — same Rum base; shared lime, mint & sugar)
+**Other Similar Cocktails:** [Daiquiri (Frozen strawberry)](./daiquiri-frozen-strawberry.md) (fused 0.445 — same Rum base; shared lime & sugar; both Refreshing), [Daiquiri](./daiquiri.md) (fused 0.483 — same Rum base; shared lime & sugar; both Refreshing), [Caipirinha](./caipirinha.md) (fused 0.492 — same Rum base; shared lime & sugar; both Refreshing), [Queen's Park Swizzle](./queens-park-swizzle.md) (fused 0.462 — same Rum base; shared lime, mint & sugar)
