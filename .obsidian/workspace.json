@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index.md",
+                "file": "raw/inbox/README.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "README"
             }
           }
         ]
@@ -196,11 +196,19 @@
   },
   "active": "a5792ee10cb62ff7",
   "lastOpenFiles": [
-    "CLAUDE.md",
-    "index.md",
-    "raw/inbox/README.md",
-    "log.md.tmp.6680.a1d977122518",
+    "log.md.tmp.4576.f27b306ff44a",
+    "scripts/similarity.py.tmp.4576.511ed586d44d",
+    "raw/archive/rabo-de-galo.md",
     "raw/inbox/Untitled.md",
+    "raw/archive/Untitled.md",
+    "wiki/rabo-de-galo.md",
+    "wiki/rabo-de-galo.md.tmp.4576.13698bfc815f",
+    "scripts/wiki.py.tmp.4576.75a60b70beaa",
+    "scripts/wiki.py.tmp.4576.722a3e370144",
+    "raw/inbox/README.md",
+    "index.md",
+    "CLAUDE.md",
+    "log.md.tmp.6680.a1d977122518",
     "raw/archive/pago-pago.md",
     "wiki/pago-pago.md",
     "wiki/pago-pago.md.tmp.6680.88cd7b124be8",
@@ -209,10 +217,6 @@
     "log.md.tmp.16624.49a6b09adce2",
     "wiki/queens-park-swizzle.md.tmp",
     "wiki/mojito.md.tmp",
-    "wiki/daiquiri-frozen-strawberry.md.tmp",
-    "wiki/daiquiri.md.tmp",
-    "wiki/caipirinha.md.tmp",
-    "scripts/__pycache__/wikilib.cpython-310.pyc",
     "wiki/caipirinha.md",
     "wiki/the-belmont-jewel.md",
     "raw/archive/caipirinha.md",
@@ -231,10 +235,6 @@
     "wiki/penicillin.md",
     "wiki/mojito.md",
     "wiki/martini.md",
-    "wiki/margarita-classic.md",
-    "wiki/manhattan.md",
-    "wiki/long-island-ice-tea.md",
-    "wiki/french-75.md",
     "photos/_TBD/pending-cocktails.jpg",
     "photos/bermuda-rum-swizzle/file-20260613231301001.jpg",
     "photos/scofflaw/file-20260614230351680.jpg",

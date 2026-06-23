@@ -30,14 +30,14 @@ VOCABULARY = {
     "Base Spirit": {
         "blurb": "The dominant spirit. Exactly one is mandatory per cocktail.",
         "tags": ["Rum", "Gin", "Vodka", "Whiskey", "Tequila", "Mezcal",
-                 "Brandy", "Cognac", "Aquavit", "Liqueur", "FortifiedWine", "Wine"],
+                 "Brandy", "Cognac", "Aquavit", "Liqueur", "FortifiedWine", "Wine", "Cachaca"],
     },
     "Ingredient": {
         "blurb": "Distinctive non-base components (souring agent, sweetener, modifiers, aromatics).",
         "tags": ["Lime", "Mint", "Falernum", "Pineapple", "Mango", "Lemon", "Orange",
                  "Coconut", "Sugar", "Demerara", "Angostura", "Soda", "Campari",
                  "Vermouth", "Egg", "Cream", "Ginger", "Coffee", "Honey", "Nutmeg", "Strawberry",
-                 "Chartreuse"],
+                 "Chartreuse", "Cynar"],
     },
     "Flavor / Profile": {
         "blurb": "The taste experience.",

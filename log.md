@@ -3,6 +3,28 @@
 Append-only, reverse-chronological (newest on top). Every Ingest / Query-of-note / Lint
 gets a dated entry. Date prefixes are ISO `YYYY-MM-DD` so the log stays greppable.
 
+## 2026-06-22 — Ingest
+
+**Added:** Rabo de Galo ([wiki/rabo-de-galo.md](./wiki/rabo-de-galo.md))
+
+**Completed from the web:**
+- Background: classic Brazilian stirred drink built on cachaça, sweet vermouth, and Cynar; name means "rooster's tail" (a play on "cocktail"); staple of São Paulo bar culture. (source: https://www.diffordsguide.com/cocktails/recipe/1740/rabo-de-galo)
+- Glassware: Rocks
+- Profile: bittersweet and spirit-forward; earthy/vegetal from Cynar, herbaceous from vermouth, grassy brightness from cachaça.
+
+**New tags added to VOCABULARY:**
+- `Cachaca` (Base Spirit dimension) — first used by Rabo de Galo
+- `Cynar` (Ingredient dimension) — first used by Rabo de Galo
+
+**New ALIASES added to `similarity.py`:**
+- `crème de menthe` accent-tolerant fix (resolves existing menthe-liqueur mapping)
+- `crème de cacao` → `cacao-liqueur` (cleared cluster: green-crme-de-menthe / white-crme-de-cacao)
+- `cynar` → `cynar`
+
+**Similarity:** No candidates reached the ✅ link threshold (0.38); Manhattan was closest at fused 0.266. "Other Similar Cocktails" left as TBD.
+
+**Lint:** 0 errors, 0 warnings.
+
 ## 2026-06-21 — Ingest
 
 **Added:** Pago Pago ([wiki/pago-pago.md](./wiki/pago-pago.md))
