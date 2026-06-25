@@ -28,11 +28,11 @@ source: raw/archive/rum-flip.md
 **Eric — Rating:** 3.5 / 5
 > N/A
 
-**Charlene — Rating:** _ / 5
+**Charlene — Rating:** 3 / 5
 > N/A
 
 **Modified Variation:** N/A
 
 **!!Tips:** N/A
 
-**Other Similar Cocktails:** TBD
+**Other Similar Cocktails:** [Chicago Fizz](./chicago-fizz.md) (fused 0.45 — same Rum base; shared egg & DryShake technique; both Classic)

@@ -17,13 +17,14 @@ index**: under each tag, every cocktail that carries it.
 ## 1. Base Spirit
 *The dominant spirit. Exactly one is mandatory per cocktail.*
 
-**Vocabulary:** ● `#Rum` · ● `#Gin` · ● `#Vodka` · ● `#Whiskey` · ● `#Tequila` · ○ `#Mezcal` · ○ `#Brandy` · ○ `#Cognac` · ○ `#Aquavit` · ● `#Liqueur` · ○ `#FortifiedWine` · ● `#Wine` · ● `#Cachaca`
+**Vocabulary:** ● `#Rum` · ● `#Gin` · ● `#Vodka` · ● `#Whiskey` · ● `#Tequila` · ○ `#Mezcal` · ○ `#Brandy` · ● `#Cognac` · ○ `#Aquavit` · ● `#Liqueur` · ○ `#FortifiedWine` · ● `#Wine` · ● `#Cachaca`
 
-- **#Rum** — [Bermuda Rum Swizzle](./wiki/bermuda-rum-swizzle.md), [Caipirinha](./wiki/caipirinha.md), [Daiquiri](./wiki/daiquiri.md), [Daiquiri (Frozen strawberry)](./wiki/daiquiri-frozen-strawberry.md), [Long Island Ice Tea](./wiki/long-island-ice-tea.md), [Mojito](./wiki/mojito.md), [Pago Pago](./wiki/pago-pago.md), [Queen's Park Swizzle](./wiki/queens-park-swizzle.md), [Rum Flip](./wiki/rum-flip.md), [Tradewinds](./wiki/tradewinds.md)
+- **#Rum** — [Bermuda Rum Swizzle](./wiki/bermuda-rum-swizzle.md), [Caipirinha](./wiki/caipirinha.md), [Chicago Fizz](./wiki/chicago-fizz.md), [Daiquiri](./wiki/daiquiri.md), [Daiquiri (Frozen strawberry)](./wiki/daiquiri-frozen-strawberry.md), [Long Island Ice Tea](./wiki/long-island-ice-tea.md), [Mojito](./wiki/mojito.md), [Pago Pago](./wiki/pago-pago.md), [Queen's Park Swizzle](./wiki/queens-park-swizzle.md), [Rum Flip](./wiki/rum-flip.md), [Tradewinds](./wiki/tradewinds.md)
 - **#Gin** — [Bijou (Layered)](./wiki/bijou-layered.md), [French 75](./wiki/french-75.md), [Long Island Ice Tea](./wiki/long-island-ice-tea.md), [Martini](./wiki/martini.md)
 - **#Vodka** — [Espresso Martini](./wiki/espresso-martini.md), [Long Island Ice Tea](./wiki/long-island-ice-tea.md)
-- **#Whiskey** — [Manhattan](./wiki/manhattan.md), [Penicillin](./wiki/penicillin.md), [Scofflaw](./wiki/scofflaw.md), [Shamrock Cocktail](./wiki/shamrock-cocktail.md), [The Belmont Jewel](./wiki/the-belmont-jewel.md), [The Salty Shaker](./wiki/the-salty-shaker.md), [Tipperary](./wiki/tipperary.md), [Whiskey Sour](./wiki/whiskey-sour.md)
+- **#Whiskey** — [Manhattan](./wiki/manhattan.md), [Penicillin](./wiki/penicillin.md), [Scofflaw](./wiki/scofflaw.md), [Shamrock Cocktail](./wiki/shamrock-cocktail.md), [The Belmont Jewel](./wiki/the-belmont-jewel.md), [The Lower Wacker](./wiki/the-lower-wacker.md), [The Salty Shaker](./wiki/the-salty-shaker.md), [Tipperary](./wiki/tipperary.md), [Whiskey Sour](./wiki/whiskey-sour.md)
 - **#Tequila** — [Long Island Ice Tea](./wiki/long-island-ice-tea.md), [Margarita (Classic)](./wiki/margarita-classic.md)
+- **#Cognac** — [Chicago Cocktail](./wiki/chicago-cocktail.md)
 - **#Liqueur** — [B-52](./wiki/b-52.md)
 - **#Wine** — [French 75](./wiki/french-75.md), [Sangria](./wiki/sangria.md)
 - **#Cachaca** — [Rabo de Galo](./wiki/rabo-de-galo.md)
@@ -40,20 +41,20 @@ index**: under each tag, every cocktail that carries it.
 - **#Falernum** — [Bermuda Rum Swizzle](./wiki/bermuda-rum-swizzle.md)
 - **#Pineapple** — [Bermuda Rum Swizzle](./wiki/bermuda-rum-swizzle.md), [Pago Pago](./wiki/pago-pago.md)
 - **#Mango** — [The Salty Shaker](./wiki/the-salty-shaker.md)
-- **#Lemon** — [French 75](./wiki/french-75.md), [Penicillin](./wiki/penicillin.md), [Sangria](./wiki/sangria.md), [Scofflaw](./wiki/scofflaw.md), [The Belmont Jewel](./wiki/the-belmont-jewel.md), [Tradewinds](./wiki/tradewinds.md), [Whiskey Sour](./wiki/whiskey-sour.md)
+- **#Lemon** — [Chicago Fizz](./wiki/chicago-fizz.md), [French 75](./wiki/french-75.md), [Penicillin](./wiki/penicillin.md), [Sangria](./wiki/sangria.md), [Scofflaw](./wiki/scofflaw.md), [The Belmont Jewel](./wiki/the-belmont-jewel.md), [Tradewinds](./wiki/tradewinds.md), [Whiskey Sour](./wiki/whiskey-sour.md)
 - **#Orange** — [B-52](./wiki/b-52.md), [Margarita (Classic)](./wiki/margarita-classic.md), [Sangria](./wiki/sangria.md)
 - **#Coconut** — [Tradewinds](./wiki/tradewinds.md)
 - **#Sugar** — [Caipirinha](./wiki/caipirinha.md), [Espresso Martini](./wiki/espresso-martini.md), [Whiskey Sour](./wiki/whiskey-sour.md)
-- **#Angostura** — [Manhattan](./wiki/manhattan.md), [Tipperary](./wiki/tipperary.md)
-- **#Vermouth** — [Bijou (Layered)](./wiki/bijou-layered.md), [Manhattan](./wiki/manhattan.md), [Martini](./wiki/martini.md), [Rabo de Galo](./wiki/rabo-de-galo.md), [Scofflaw](./wiki/scofflaw.md), [Tipperary](./wiki/tipperary.md)
-- **#Egg** — [Rum Flip](./wiki/rum-flip.md), [Whiskey Sour](./wiki/whiskey-sour.md)
+- **#Angostura** — [Chicago Cocktail](./wiki/chicago-cocktail.md), [Manhattan](./wiki/manhattan.md), [Tipperary](./wiki/tipperary.md)
+- **#Vermouth** — [Bijou (Layered)](./wiki/bijou-layered.md), [Manhattan](./wiki/manhattan.md), [Martini](./wiki/martini.md), [Rabo de Galo](./wiki/rabo-de-galo.md), [Scofflaw](./wiki/scofflaw.md), [The Lower Wacker](./wiki/the-lower-wacker.md), [Tipperary](./wiki/tipperary.md)
+- **#Egg** — [Chicago Fizz](./wiki/chicago-fizz.md), [Rum Flip](./wiki/rum-flip.md), [Whiskey Sour](./wiki/whiskey-sour.md)
 - **#Ginger** — [Penicillin](./wiki/penicillin.md)
 - **#Coffee** — [B-52](./wiki/b-52.md), [Espresso Martini](./wiki/espresso-martini.md)
 - **#Honey** — [Penicillin](./wiki/penicillin.md)
 - **#Nutmeg** — [Rum Flip](./wiki/rum-flip.md)
 - **#Strawberry** — [Daiquiri (Frozen strawberry)](./wiki/daiquiri-frozen-strawberry.md)
 - **#Chartreuse** — [Pago Pago](./wiki/pago-pago.md)
-- **#Cynar** — [Rabo de Galo](./wiki/rabo-de-galo.md)
+- **#Cynar** — [Rabo de Galo](./wiki/rabo-de-galo.md), [The Lower Wacker](./wiki/the-lower-wacker.md)
 
 ---
 
@@ -67,13 +68,13 @@ index**: under each tag, every cocktail that carries it.
 - **#Fruity** — [Bermuda Rum Swizzle](./wiki/bermuda-rum-swizzle.md), [Daiquiri (Frozen strawberry)](./wiki/daiquiri-frozen-strawberry.md), [Sangria](./wiki/sangria.md), [The Belmont Jewel](./wiki/the-belmont-jewel.md)
 - **#Citrusy** — [Scofflaw](./wiki/scofflaw.md)
 - **#Tart** — [Margarita (Classic)](./wiki/margarita-classic.md), [Scofflaw](./wiki/scofflaw.md)
-- **#Bitter** — [Rabo de Galo](./wiki/rabo-de-galo.md)
+- **#Bitter** — [Rabo de Galo](./wiki/rabo-de-galo.md), [The Lower Wacker](./wiki/the-lower-wacker.md)
 - **#Herbal** — [Bijou (Layered)](./wiki/bijou-layered.md), [Shamrock Cocktail](./wiki/shamrock-cocktail.md), [Tipperary](./wiki/tipperary.md)
-- **#Boozy** — [Bijou (Layered)](./wiki/bijou-layered.md), [Espresso Martini](./wiki/espresso-martini.md), [Long Island Ice Tea](./wiki/long-island-ice-tea.md), [Manhattan](./wiki/manhattan.md), [Rabo de Galo](./wiki/rabo-de-galo.md)
+- **#Boozy** — [Bijou (Layered)](./wiki/bijou-layered.md), [Chicago Cocktail](./wiki/chicago-cocktail.md), [Espresso Martini](./wiki/espresso-martini.md), [Long Island Ice Tea](./wiki/long-island-ice-tea.md), [Manhattan](./wiki/manhattan.md), [Rabo de Galo](./wiki/rabo-de-galo.md)
 - **#Complex** — [Bijou (Layered)](./wiki/bijou-layered.md), [Espresso Martini](./wiki/espresso-martini.md), [Manhattan](./wiki/manhattan.md), [Tipperary](./wiki/tipperary.md)
 - **#Creamy** — [B-52](./wiki/b-52.md), [Tradewinds](./wiki/tradewinds.md)
 - **#Smoky** — [Penicillin](./wiki/penicillin.md)
-- **#Dry** — [Martini](./wiki/martini.md)
+- **#Dry** — [Chicago Cocktail](./wiki/chicago-cocktail.md), [Martini](./wiki/martini.md)
 - **#Spicy** — [Penicillin](./wiki/penicillin.md)
 
 ---
@@ -83,14 +84,14 @@ index**: under each tag, every cocktail that carries it.
 
 **Vocabulary:** ● `#Shaken` · ● `#Muddled` · ● `#Swizzle` · ● `#Stirred` · ● `#Built` · ● `#Blended` · ○ `#Thrown` · ● `#Layered` · ● `#DryShake`
 
-- **#Shaken** — [Daiquiri](./wiki/daiquiri.md), [Espresso Martini](./wiki/espresso-martini.md), [French 75](./wiki/french-75.md), [Margarita (Classic)](./wiki/margarita-classic.md), [Pago Pago](./wiki/pago-pago.md), [Scofflaw](./wiki/scofflaw.md), [The Belmont Jewel](./wiki/the-belmont-jewel.md), [The Salty Shaker](./wiki/the-salty-shaker.md), [Whiskey Sour](./wiki/whiskey-sour.md)
+- **#Shaken** — [Chicago Cocktail](./wiki/chicago-cocktail.md), [Daiquiri](./wiki/daiquiri.md), [Espresso Martini](./wiki/espresso-martini.md), [French 75](./wiki/french-75.md), [Margarita (Classic)](./wiki/margarita-classic.md), [Pago Pago](./wiki/pago-pago.md), [Scofflaw](./wiki/scofflaw.md), [The Belmont Jewel](./wiki/the-belmont-jewel.md), [The Salty Shaker](./wiki/the-salty-shaker.md), [Whiskey Sour](./wiki/whiskey-sour.md)
 - **#Muddled** — [Caipirinha](./wiki/caipirinha.md)
 - **#Swizzle** — [Bermuda Rum Swizzle](./wiki/bermuda-rum-swizzle.md), [Queen's Park Swizzle](./wiki/queens-park-swizzle.md)
-- **#Stirred** — [Manhattan](./wiki/manhattan.md), [Martini](./wiki/martini.md), [Rabo de Galo](./wiki/rabo-de-galo.md), [Shamrock Cocktail](./wiki/shamrock-cocktail.md), [Tipperary](./wiki/tipperary.md)
+- **#Stirred** — [Manhattan](./wiki/manhattan.md), [Martini](./wiki/martini.md), [Rabo de Galo](./wiki/rabo-de-galo.md), [Shamrock Cocktail](./wiki/shamrock-cocktail.md), [The Lower Wacker](./wiki/the-lower-wacker.md), [Tipperary](./wiki/tipperary.md)
 - **#Built** — [Mojito](./wiki/mojito.md), [Sangria](./wiki/sangria.md)
 - **#Blended** — [Daiquiri (Frozen strawberry)](./wiki/daiquiri-frozen-strawberry.md), [Tradewinds](./wiki/tradewinds.md)
 - **#Layered** — [B-52](./wiki/b-52.md), [Bijou (Layered)](./wiki/bijou-layered.md)
-- **#DryShake** — [Rum Flip](./wiki/rum-flip.md)
+- **#DryShake** — [Chicago Fizz](./wiki/chicago-fizz.md), [Rum Flip](./wiki/rum-flip.md)
 
 ---
 
@@ -103,7 +104,7 @@ index**: under each tag, every cocktail that carries it.
 - **#Highball** — [Long Island Ice Tea](./wiki/long-island-ice-tea.md), [Mojito](./wiki/mojito.md), [The Belmont Jewel](./wiki/the-belmont-jewel.md)
 - **#Sour** — [Caipirinha](./wiki/caipirinha.md), [Daiquiri](./wiki/daiquiri.md), [Daiquiri (Frozen strawberry)](./wiki/daiquiri-frozen-strawberry.md), [Margarita (Classic)](./wiki/margarita-classic.md), [Pago Pago](./wiki/pago-pago.md), [The Salty Shaker](./wiki/the-salty-shaker.md), [Whiskey Sour](./wiki/whiskey-sour.md)
 - **#Martini** — [Martini](./wiki/martini.md), [Shamrock Cocktail](./wiki/shamrock-cocktail.md)
-- **#Fizz** — [French 75](./wiki/french-75.md)
+- **#Fizz** — [Chicago Fizz](./wiki/chicago-fizz.md), [French 75](./wiki/french-75.md)
 - **#Punch** — [Sangria](./wiki/sangria.md)
 - **#Flip** — [Rum Flip](./wiki/rum-flip.md)
 
@@ -114,8 +115,8 @@ index**: under each tag, every cocktail that carries it.
 
 **Vocabulary:** ● `#Collins` · ● `#Coupe` · ● `#Rocks` · ○ `#NickAndNora` · ○ `#TikiMug` · ○ `#Hurricane` · ○ `#WineGlass` · ● `#Flute` · ● `#Shot` · ○ `#Margarita` · ○ `#Pint` · ● `#MartiniGlass` · ● `#HighballGlass`
 
-- **#Collins** — [Queen's Park Swizzle](./wiki/queens-park-swizzle.md)
-- **#Coupe** — [Daiquiri](./wiki/daiquiri.md), [Espresso Martini](./wiki/espresso-martini.md), [Pago Pago](./wiki/pago-pago.md), [Rum Flip](./wiki/rum-flip.md)
+- **#Collins** — [Chicago Fizz](./wiki/chicago-fizz.md), [Queen's Park Swizzle](./wiki/queens-park-swizzle.md)
+- **#Coupe** — [Chicago Cocktail](./wiki/chicago-cocktail.md), [Daiquiri](./wiki/daiquiri.md), [Espresso Martini](./wiki/espresso-martini.md), [Pago Pago](./wiki/pago-pago.md), [Rum Flip](./wiki/rum-flip.md), [The Lower Wacker](./wiki/the-lower-wacker.md)
 - **#Rocks** — [Margarita (Classic)](./wiki/margarita-classic.md)
 - **#Flute** — [French 75](./wiki/french-75.md)
 - **#Shot** — [B-52](./wiki/b-52.md), [Bijou (Layered)](./wiki/bijou-layered.md)
@@ -127,12 +128,13 @@ index**: under each tag, every cocktail that carries it.
 ## 7. Theme / Era
 *The cocktail's era or special theme.*
 
-**Vocabulary:** ● `#Classic` · ● `#ModernClassic` · ○ `#Contemporary` · ○ `#Original` · ○ `#Halloween` · ● `#StPatricksDay`
+**Vocabulary:** ● `#Classic` · ● `#ModernClassic` · ○ `#Contemporary` · ○ `#Original` · ○ `#Halloween` · ● `#StPatricksDay` · ● `#AndersErickson`
 
-- **#Classic** — [B-52](./wiki/b-52.md), [Caipirinha](./wiki/caipirinha.md), [Manhattan](./wiki/manhattan.md), [Pago Pago](./wiki/pago-pago.md), [Rabo de Galo](./wiki/rabo-de-galo.md), [Rum Flip](./wiki/rum-flip.md), [Scofflaw](./wiki/scofflaw.md), [Shamrock Cocktail](./wiki/shamrock-cocktail.md), [Tipperary](./wiki/tipperary.md)
+- **#Classic** — [B-52](./wiki/b-52.md), [Caipirinha](./wiki/caipirinha.md), [Chicago Cocktail](./wiki/chicago-cocktail.md), [Chicago Fizz](./wiki/chicago-fizz.md), [Manhattan](./wiki/manhattan.md), [Pago Pago](./wiki/pago-pago.md), [Rabo de Galo](./wiki/rabo-de-galo.md), [Rum Flip](./wiki/rum-flip.md), [Scofflaw](./wiki/scofflaw.md), [Shamrock Cocktail](./wiki/shamrock-cocktail.md), [Tipperary](./wiki/tipperary.md)
 - **#ModernClassic** — [Penicillin](./wiki/penicillin.md)
 - **#StPatricksDay** — [Shamrock Cocktail](./wiki/shamrock-cocktail.md)
+- **#AndersErickson** — [The Lower Wacker](./wiki/the-lower-wacker.md)
 
 ---
 
-*Regenerated by `scripts/wiki.py compile` on 2026-06-22.*
+*Regenerated by `scripts/wiki.py compile` on 2026-06-24.*

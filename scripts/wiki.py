@@ -62,7 +62,7 @@ VOCABULARY = {
     },
     "Theme / Era": {
         "blurb": "The cocktail's era or special theme.",
-        "tags": ["Classic", "ModernClassic", "Contemporary", "Original", "Halloween", "StPatricksDay"],
+        "tags": ["Classic", "ModernClassic", "Contemporary", "Original", "Halloween", "StPatricksDay", "AndersErickson"],
     },
 }
 

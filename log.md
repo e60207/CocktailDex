@@ -3,6 +3,25 @@
 Append-only, reverse-chronological (newest on top). Every Ingest / Query-of-note / Lint
 gets a dated entry. Date prefixes are ISO `YYYY-MM-DD` so the log stays greppable.
 
+## 2026-06-24 — Ingest
+
+**Added:**
+- Chicago Fizz ([wiki/chicago-fizz.md](./wiki/chicago-fizz.md))
+- Chicago Cocktail ([wiki/chicago-cocktail.md](./wiki/chicago-cocktail.md))
+- The Lower Wacker ([wiki/the-lower-wacker.md](./wiki/the-lower-wacker.md))
+
+**Completed from the web:**
+- **Chicago Fizz** — Background (late 19th/early 20th century, Waldorf-Astoria Bar Book 1935), Glassware (Collins), Profile. Source: https://www.diffordsguide.com/cocktails/recipe/5860/chicago-fizz
+- **Chicago Cocktail** — Background (first published Vermeire 1922, Savoy 1930), Glassware (Coupe), Profile. Source: https://www.diffordsguide.com/cocktails/recipe/16019/chicago
+- **The Lower Wacker** — Background (contemporary Chicago cocktail; Lower Wacker Drive + Malört context from general knowledge; no known prior source found online).
+
+**Similar links added:**
+- Chicago Fizz ↔ Rum Flip (fused 0.45)
+- The Lower Wacker ↔ Manhattan (fused 0.40), ↔ Tipperary (fused 0.38)
+- Chicago Cocktail: no ✅ candidates (TBD)
+
+---
+
 ## 2026-06-22 — Ingest
 
 **Added:** Rabo de Galo ([wiki/rabo-de-galo.md](./wiki/rabo-de-galo.md))

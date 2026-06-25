@@ -36,4 +36,4 @@ source: raw/archive/tipperary.md
 
 **!!Tips:** If under diluted, it may result in a disjointed flavor profile.
 
-**Other Similar Cocktails:** [Manhattan](./manhattan.md) (fused 0.58 — same Whiskey base; shared vermouth & bitters; both Classic), [Shamrock Cocktail](./shamrock-cocktail.md) (fused 0.57 — same Whiskey base; shared vermouth & Chartreuse; both Stirred)
+**Other Similar Cocktails:** [Manhattan](./manhattan.md) (fused 0.58 — same Whiskey base; shared vermouth & bitters; both Classic), [Shamrock Cocktail](./shamrock-cocktail.md) (fused 0.57 — same Whiskey base; shared vermouth & Chartreuse; both Stirred), [The Lower Wacker](./the-lower-wacker.md) (fused 0.38 — same Whiskey base; shared vermouth & bitters; both Stirred)
