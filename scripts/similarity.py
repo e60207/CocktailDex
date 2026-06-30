@@ -72,6 +72,7 @@ _UNIT = (r"(?:oz|ml|cl|l|tsp|tbsp|dash(?:es)?|part(?:s)?|cup(?:s)?|"
 # ingredient canonicalisation: first matching pattern wins (order matters)
 ALIASES = [
     (r"\brum\b",                          "rum"),
+    (r"\brhum\b",                         "rum"),
     (r"\bcacha[cç]a\b",                   "rum"),
     (r"\bgin\b",                          "gin"),
     (r"\bvodka\b",                        "vodka"),
@@ -106,6 +107,11 @@ ALIASES = [
     (r"\begg\b",                          "egg"),
     (r"\bcream\b",                        "cream"),
     (r"\bsalt\b",                         "salt"),
+    (r"\b(absinthe|pastis)\b",            "absinthe"),
+    (r"\bmal[oö]?r?t\b",                  "absinthe"),
+    (r"\b(tabasco|hot sauce)\b",          "hot-sauce"),
+    (r"\bworcestershire\b",               "worcestershire"),
+    (r"\bclamato\b",                      "clamato"),
 ]
 SOUR_RE  = re.compile(r"\b(lime|lemon|grapefruit|sour mix|citrus|verjus)\b", re.I)
 SWEET_RE = re.compile(r"\b(sweet|sugar|syrup|honey|agave|grenadine|falernum|orgeat|demerara|liqueur|cola|chartreuse)\b", re.I)

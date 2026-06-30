@@ -37,4 +37,4 @@ source: raw/archive/mojito.md
 
 **!!Tips:** N/A
 
-**Other Similar Cocktails:** [Daiquiri (Frozen strawberry)](./daiquiri-frozen-strawberry.md) (fused 0.445 — same Rum base; shared lime & sugar; both Refreshing), [Daiquiri](./daiquiri.md) (fused 0.483 — same Rum base; shared lime & sugar; both Refreshing), [Caipirinha](./caipirinha.md) (fused 0.492 — same Rum base; shared lime & sugar; both Refreshing), [Queen's Park Swizzle](./queens-park-swizzle.md) (fused 0.462 — same Rum base; shared lime, mint & sugar)
+**Other Similar Cocktails:** [Caipirinha](./caipirinha.md) (fused 0.492 — same Rum base; shared lime & sugar; both Refreshing), [Daiquiri](./daiquiri.md) (fused 0.483 — same Rum base; shared lime & sugar; both Refreshing), [Queen's Park Swizzle](./queens-park-swizzle.md) (fused 0.462 — same Rum base; shared lime, mint & sugar), [Daiquiri (Frozen strawberry)](./daiquiri-frozen-strawberry.md) (fused 0.446 — same Rum base; shared lime & sugar; both Refreshing), [Ti' Punch](./ti-punch.md) (fused 0.43 — same Rum base; shared lime & sugar)

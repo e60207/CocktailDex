@@ -3,6 +3,25 @@
 Append-only, reverse-chronological (newest on top). Every Ingest / Query-of-note / Lint
 gets a dated entry. Date prefixes are ISO `YYYY-MM-DD` so the log stays greppable.
 
+## 2026-06-29 — Ingest
+
+**Added:**
+- Sazerac ([wiki/sazerac.md](./wiki/sazerac.md))
+- Bloody Caesar ([wiki/bloody-caesar.md](./wiki/bloody-caesar.md))
+- Ti' Punch ([wiki/ti-punch.md](./wiki/ti-punch.md))
+
+**Completed from the web:**
+- Sazerac: Background (New Orleans origin, Peychaud/Cognac → rye whiskey history; https://en.wikipedia.org/wiki/Sazerac), Profile
+- Bloody Caesar: Background (Walter Chell, Calgary 1969, spaghetti alle vongole inspiration; https://en.wikipedia.org/wiki/Caesar_(cocktail)), Profile
+- Ti' Punch: Background (Martinique national aperitif, rhum agricole tradition, "chacun prépare sa propre mort"; https://en.wikipedia.org/wiki/Ti%27_punch), Glassware (Rocks), Profile
+
+**Similarity linking:**
+- Added ALIASES to `scripts/similarity.py`: `rhum` → rum, `absinthe/pastis` → absinthe, `malört` → absinthe, `tabasco/hot sauce` → hot-sauce, `worcestershire` → worcestershire, `clamato` → clamato
+- Sazerac linked to: Manhattan (0.38)
+- Ti' Punch linked to: Daiquiri Frozen (0.47), Caipirinha (0.44), Mojito (0.43), Daiquiri (0.43), QPS (0.42), Rum Flip (0.38)
+- Bloody Caesar: no ✅ candidates (TBD)
+- Updated mutual back-links on: Manhattan, Caipirinha, Daiquiri, Daiquiri Frozen, Mojito, QPS, Pago Pago, Rum Flip
+
 ## 2026-06-24 — Ingest
 
 **Added:**

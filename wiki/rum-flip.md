@@ -35,4 +35,4 @@ source: raw/archive/rum-flip.md
 
 **!!Tips:** N/A
 
-**Other Similar Cocktails:** [Chicago Fizz](./chicago-fizz.md) (fused 0.45 — same Rum base; shared egg & DryShake technique; both Classic)
+**Other Similar Cocktails:** [Chicago Fizz](./chicago-fizz.md) (fused 0.45 — same Rum base; shared egg & DryShake technique; both Classic), [Ti' Punch](./ti-punch.md) (fused 0.38 — same Rum base; shared sugar; both Classic)

@@ -35,4 +35,4 @@ source: raw/archive/Untitled.md
 
 **!!Tips:** A barspoon of syrup from maraschino cherry will add depth and complexity, also give the cocktail more body. HIGHLY RECOMMEND TO USE PREMIUM COCKTAIL CHERRY (e.g. Luxardo). NEVER USE THE ARTIFICIAL/RADIOACTIVE CHERRIES YOU WOULD SEE ON A CAKE.
 
-**Other Similar Cocktails:** [Tipperary](./tipperary.md) (fused 0.58 — same Whiskey base; shared vermouth & bitters; both Classic), [The Lower Wacker](./the-lower-wacker.md) (fused 0.40 — same Whiskey base; shared vermouth & bitters; both Stirred), [Shamrock Cocktail](./shamrock-cocktail.md) (fused 0.37 — same Whiskey base; same Stirred technique; both Classic)
+**Other Similar Cocktails:** [Tipperary](./tipperary.md) (fused 0.58 — same Whiskey base; shared vermouth & bitters; both Classic), [The Lower Wacker](./the-lower-wacker.md) (fused 0.40 — same Whiskey base; shared vermouth & bitters; both Stirred), [Sazerac](./sazerac.md) (fused 0.38 — same Whiskey base; shared bitters; both Stirred & Classic), [Shamrock Cocktail](./shamrock-cocktail.md) (fused 0.37 — same Whiskey base; same Stirred technique; both Classic)

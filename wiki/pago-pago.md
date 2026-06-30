@@ -37,4 +37,4 @@ source: raw/archive/Untitled.md
 
 **!!Tips:** N/A
 
-**Other Similar Cocktails:** TBD
+**Other Similar Cocktails:** [Daiquiri](./daiquiri.md) (fused 0.43 — same Rum base; same family (Sour); shared lime), [Caipirinha](./caipirinha.md) (fused 0.41 — same Rum base; same family (Sour); shared lime)

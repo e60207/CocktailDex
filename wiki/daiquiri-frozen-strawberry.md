@@ -36,4 +36,4 @@ source: raw/archive/Untitled.md
 
 **!!Tips:** N/A
 
-**Other Similar Cocktails:** [Daiquiri](./daiquiri.md) (fused 0.611 — same Rum base; same family (Sour); shared lime & sugar; both Refreshing), [Caipirinha](./caipirinha.md) (fused 0.559 — same Rum base; same family (Sour); shared lime & sugar; both Refreshing), [Mojito](./mojito.md) (fused 0.445 — same Rum base; shared lime & sugar; both Refreshing), [Queen's Park Swizzle](./queens-park-swizzle.md) (fused 0.389 — same Rum base; shared lime & sugar)
+**Other Similar Cocktails:** [Daiquiri](./daiquiri.md) (fused 0.611 — same Rum base; same family (Sour); shared lime & sugar; both Refreshing), [Caipirinha](./caipirinha.md) (fused 0.559 — same Rum base; same family (Sour); shared lime & sugar; both Refreshing), [Ti' Punch](./ti-punch.md) (fused 0.47 — same Rum base; shared lime & sugar), [Mojito](./mojito.md) (fused 0.445 — same Rum base; shared lime & sugar; both Refreshing), [Queen's Park Swizzle](./queens-park-swizzle.md) (fused 0.389 — same Rum base; shared lime & sugar)
